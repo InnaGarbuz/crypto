@@ -1,0 +1,484 @@
+.menu-cont { position: absolute;
+    display: none;
+    cursor: pointer;
+    padding: 20px;
+    right: 1px;
+    top: 5px;
+    z-index: 20;
+}
+
+.fn-form-popup{
+	display: none;
+}
+.fn-form-popup__wrapper{
+	display: flex;
+}
+.menu-two{
+	z-index:  99999999;
+}
+.menu-txt {
+    display: inline-block;
+    margin-right: 15px;
+    position: relative;
+    bottom: 3px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.25em;
+    letter-spacing: 6px;
+    font-weight: 700;
+    -webkit-font-smoothing: antialiased;
+}
+
+.menu {
+    content: "";
+    display: inline-block;
+    position: relative;
+    float: right;
+    opacity: 1;
+    height: 3px;
+    width: 30px;
+    background-color: #fff;
+    -webkit-transition: -webkit-transform 400ms ease;
+    transition: -webkit-transform 400ms ease;
+    transition: transform 400ms ease;
+    transition: transform 400ms ease, -webkit-transform 400ms ease;
+}
+
+.menu.active {
+    -webkit-transform: rotate(45deg) translateY(12px);
+    transform: rotate(45deg) translateY(12px);
+}
+
+.menu.active:before {
+    opacity: 0;
+}
+
+.menu.active:after {
+    -webkit-transform: rotate(-450deg) translateX(16px);
+    transform: rotate(-450deg) translateX(16px);
+}
+
+.menu:before, .menu:after {
+    content: "";
+    display: block;
+    position: absolute;
+    opacity: 1;
+    height: 3px;
+    width: 30px;
+    background-color: #fff;
+}
+
+.menu:before {
+    top: 8px;
+    -webkit-transition: opacity 400ms ease;
+    transition: opacity 400ms ease;
+}
+
+.menu:after {
+    top: 16px;
+    -webkit-transition: -webkit-transform 400ms ease;
+    transition: -webkit-transform 400ms ease;
+    transition: transform 400ms ease, -webkit-transform 400ms ease;
+}
+.cont{
+	z-index: -1;
+}
+
+
+/*
+.slick-active{
+	margin-left: 131px;
+} */
+
+/* .slick-slide img{
+	width: 100%;
+} */
+
+#modal_form {
+	width: 80%;
+	position: fixed; /* чтoбы oкнo былo в видимoй зoне в любoм месте */
+	top: 20%; /* oтступaем сверху 45%, oстaльные 5% пoдвинет скрипт */
+	left: 50%; /* пoлoвинa экрaнa слевa */
+	display: none; /* в oбычнoм сoстoянии oкнa не дoлжнo быть */
+	opacity: 0; /* пoлнoстью прoзрaчнo для aнимирoвaния */
+	z-index: 5; /* oкнo дoлжнo быть нaибoлее бoльшем слoе */
+	padding: 20px 10px;
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	transform: translateX(-50%);
+}
+/* Кнoпкa зaкрыть для тех ктo в тaнке) */
+#modal_form #modal_close {
+	width: 21px;
+	height: 21px;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	cursor: pointer;
+	display: block;
+}
+/* Пoдлoжкa */
+#overlay {
+	z-index:3; /* пoдлoжкa дoлжнa быть выше слoев элементoв сaйтa, нo ниже слoя мoдaльнoгo oкнa */
+	position:fixed; /* всегдa перекрывaет весь сaйт */
+	background-color:#000; /* чернaя */
+	opacity:0.8; /* нo немнoгo прoзрaчнa */
+	-moz-opacity:0.8; /* фикс прозрачности для старых браузеров */
+	filter:alpha(opacity=80);
+	width:100%;
+	height:100%; /* рaзмерoм вo весь экрaн */
+	top:0; /* сверху и слевa 0, oбязaтельные свoйствa! */
+	left:0;
+	cursor:pointer;
+	display:none; /* в oбычнoм сoстoянии её нет) */
+}
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+	.fn-header__navbar{
+		text-align: left;
+	}
+	.fn-header__navbar li a{
+	font-size: 15px;
+	    padding: 10px 0;
+	}
+	.fn-phone a {
+	    color: #fff;
+	    font-size: 13px;
+	}
+
+	.fn-student__middle-item{
+		position: relative;
+		width: 100%;
+		left: 0;
+		transform: translateX(0%);
+	}
+	.fn-students__item{
+		display: block;
+		margin: 20px 0;
+	}
+	.fn-students__item li{
+		width: 90%;
+		display: block;
+		margin: 0 auto 20px;
+		text-align: center;
+	}
+	.fn-students__item li:last-child{
+		margin-right: auto;
+	}
+	.fn-students__item-left{
+		padding: 0;
+	}
+	.fn-student__middle-item p {
+	    padding: 0px 0 0 0;
+	    font-size: 16px;
+	}
+	.fn-student__middle-item a{
+		font-size: 16px;
+	}
+	 .fn-banner-two h1{
+		font-size: 20px;
+	}
+	.fn-banner h1{
+		font-size: 24px;
+	}
+
+	.fn-banner h2, .fn-banner-two h2, .fn-banner-two p{
+		font-size: 16px;
+	}
+	.fn-top-header-wrapp{
+		height: auto;
+		padding: 0;
+	}
+	.overflow{
+		display: none;
+	}
+	.fn-student__slide-middle--item p {
+	    padding: 00px 168px 0 0;
+	    font-size: 20px;
+	}
+	.fn-top-header{
+		position: relative;
+		right: 0;
+		width: 100%;
+		border-radius: 0;
+	}
+
+	.fn-top-header__item{
+		padding-top: 50px;
+	}
+	.stability{
+		margin: 0;
+	}
+	.reliability, .stability-new{
+		position: relative;
+		top: 0;
+		left: 0;
+		margin: 0;
+
+	}
+
+	.fn-after-course .line-left, .fn-after-course .line-right{
+		display: none;
+	}
+
+	.fn-after-course__img-fon{
+		position: relative;
+	}
+	.fn-after-course__item{
+		text-align: center;
+	}
+
+
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.fn-student__slide-middle--item{
+		left: 50%;
+	}
+
+	.fn-student__slide-middle{
+		position: 	relative;
+	}
+	.fn-smi{
+		height: auto;
+	}
+	.fn-student__slide-middle--item{
+		width: 	100%!important;
+	}
+	.fn-student__slide-wrapp {
+	    width: 500px;
+	    margin: 0 auto;
+	    height: 382px !important;
+	}
+	.slider-left{
+		display: none;
+	}
+	.fn-student__slide-middle--item p{
+		font-size: 	18px;
+		padding: 0;
+	}
+	.none{
+		display: none;
+	}
+	.title-form-banner{
+		text-align: center;
+	}
+	.menu-cont{
+		display: block;
+	}
+	.fn-header__navigation{
+		display: none;
+		position: relative;
+		background: #2b7ec6;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		 left: 0;
+		 z-index: 1;
+	}
+
+	.border{
+		border: none;
+		padding: 0;
+	}
+	.fn-top-header__item p{
+		font-size: 20px;
+	}
+	.fn-title-section h3{
+		margin: 0;
+		font-size: 21px;
+	}
+
+	.price {
+	    font-size: 47px;
+	}
+
+	.form-input input{
+		width: 100%;
+		height: auto;
+	}
+	.fn-btn{
+		width: 100%;
+		height: auto;
+	}
+
+	.fn-doubt__image{
+		margin: 40px 0;
+	}
+	.fn-day{
+		font-size: 30px;
+	}
+	.fn-day{
+		font-size: 20px;
+	}
+	.fn-students__list li{
+		width: 100%;
+		display: block;
+	}
+	.fn-students__list{
+		display: block;
+	}
+	.fn-btn-blue{
+		height: auto;
+	}
+
+	.fn-number{
+		margin: 20px auto;
+	}
+	.fn-contact__form {
+	    width: 86%;
+	    margin: 0 auto;
+	}
+	.fn-title-section p{
+		font-size: 16px;
+	}
+	.fn-title-section{
+		width: 90%;
+	}
+	.fn-programm__text .desrk {
+	    font-size: 17px;
+	}
+
+	.fn-license__wrapper p{
+		font-size: 20px;
+	}
+
+
+    .fn-header__navbar{
+    	margin: 0;
+    }
+	.fn-header__navbar li{
+		display: block;
+	}
+
+	.fn-students__list li p {
+	    font-size: 16px;
+	    color: #183e54;
+	    font-weight: bold;
+	    margin: 5px 0 15px
+	}
+	.fn-form-popup{
+		height: auto;
+	}
+	.fn-form-popup-two{
+		left: 0;
+	}
+	.fn-popup-sosial li{
+		width: 100%;
+		display: block;
+	}
+	.fn-students__list{
+		padding: 0;
+	}
+	.fn-footer__social{
+		text-align: center;
+	}
+	.fn-footer__nav li a{
+		font-size: 14px;
+	}
+
+	.fn-form-popup{
+		width: 100%;
+		right: 0;
+		margin: 0 auto;
+		bottom: 0;
+	}
+	.fn-header__navbar li a{
+		font-size: 26px;
+	}
+	.fn-header__navbar{
+		text-align: center;
+	}
+
+	#modal_form{
+		width: 100%;
+		top: 0!important;
+	}
+
+	.popup{
+		width: 95%;
+	}
+	.fn-form-popup-two h2{
+		font-size: 20px;
+	}
+	.fn-form-popup-two p{
+		font-size: 16px;
+	}
+	.fn-popup-sosial li .sosial{
+		height: auto;
+	}
+	.fn-popup-sosial li p{
+		font-size: 15px;
+		margin: 0;
+		padding: 0;
+	}
+
+	.fn-popup-sosial li .sosial-img{
+		margin: 0 auto;
+		width: 80%;
+	}
+	.popup{
+		margin: 0;
+	}
+
+	.fn-license__img{
+		display: block;
+		    margin: 20px;
+		    width: 100%;
+	}
+
+}
+@media only screen and (max-width : 760px) {
+
+}
+/* Extra Small Devices, Phones */
+
+@media only screen and (max-width : 480px) {
+
+	.img-voln{
+		bottom: -6px;
+	}
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width :  1200px) {
+
+}
+
