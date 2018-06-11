@@ -205,8 +205,7 @@ section {
 
 .fn-phone a {
   color: #fff;
-  font-size: 19px;
-    font-weight: bold; }
+  font-size: 18px; }
 
 .fn-students__list {
   list-style: none;
@@ -494,7 +493,7 @@ section {
   font-size: 20px; }
 
 .fn-students__wrapper {
-  width: 90%;
+  width: 76%;
   margin: 0 auto;
   position: relative; }
 
@@ -518,26 +517,26 @@ section {
 .fn-student__slide-wrapp {
   width: 500px;
   margin: 0 auto;
-  height: 520px!important;
+  height: 480px !important;
   position: relative; }
 
 .fn-student__slide-middle--item {
   background: #fdfbfb;
-  margin: 0px;
+  margin: 0 10px;
   padding-bottom: 40px;
   border-radius: 10px;
   overflow: hidden;
-  height: 498px;
+  height: 490px;
   -webkit-box-shadow: 0px 4px 13px 0px rgba(28, 28, 29, 0.16);
   box-shadow: 0px 4px 13px 0px rgba(28, 28, 29, 0.16); }
   .fn-student__slide-middle--item p {
-    padding: 20px 20px 0;
-    font-size: 18px; }
+    padding: 20px 40px;
+    font-size: 20px; }
   .fn-student__slide-middle--item a {
     color: #1c4fe7;
     font-weight: bold;
     font-size: 18px;
-    margin: 0 20px 0;
+    margin: 0 40px 0;
     padding: 10px 0 5px;
     border-bottom: 2px solid #1c4fe7; }
 
@@ -622,10 +621,10 @@ section {
     margin: 0; }
   .fn-form-popup-two p {
     color: #000;
-    font-size: 24px;
+    font-size: 19px;
     margin: 8px 0; }
   .fn-form-popup-two p.text-blue {
-    color: #1b3a4f; }
+    color: #0058ed; }
 
 .fn-popup-sosial {
   padding: 0;
@@ -635,8 +634,8 @@ section {
     width: 22%;
     margin: 0 4px; }
     .fn-popup-sosial li .sosial {
-      color: #1b3a4f;
-      background: #fff;
+      color: #fff;
+      background: #0058ed;
       border-radius: 70px;
       width: 50px;
       padding: 8px 0;
@@ -650,11 +649,11 @@ section {
       background: rgba(255, 255, 255, 0);
       margin: 0 auto 18px; }
       .fn-popup-sosial li .sosial-img img {
-        width: 64%;
+        width: 86%;
         margin: 0 auto; }
     .fn-popup-sosial li p {
       color: #1b3a4f;
-      font-size: 18px; }
+      font-size: 17px; }
 
 .close {
   position: absolute;
@@ -707,7 +706,8 @@ section {
 .popup {
   margin: 70px auto;
   padding: 20px;
-  background: #fff;
+  background: url("../img/bg-popup.jpg");
+  background-size: cover;
   border-radius: 5px;
   width: 80%;
   position: relative;
@@ -716,7 +716,7 @@ section {
   transition: all 5s ease-in-out; }
   .popup h2 {
     margin-top: 0;
-    color: #333;
+    color: #0058ed;
     font-family: Tahoma, Arial, sans-serif; }
   .popup .close {
     position: absolute;
@@ -783,8 +783,7 @@ section {
 
 .fn-after-course {
   position: relative;
-  overflow: hidden;
-  padding-bottom: 0; }
+  overflow: hidden; }
   .fn-after-course__img-fon {
     position: absolute;
     left: 50%;
