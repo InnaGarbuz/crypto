@@ -1,1158 +1,1160 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8" />
-	<title>Fenix</title>
-	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<link rel="shortcut icon" href="img/favicon.png" />
-	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid.min.css" />
-	<link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css" />
-	<link rel="stylesheet" href="css/fonts.css" />
-	<link rel="stylesheet" href="libs/slick/slick-theme.css" />
-	<link rel="stylesheet" href="libs/slick/slick.css" />
-	<link rel="stylesheet" href="css/main.css" />
-	<link rel="stylesheet" href="css/media.css" />
-	<link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css" />
-	<style type="text/css">
+    <meta charset="utf-8"/>
+    <title>Fenix</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="shortcut icon" href="img/favicon.png"/>
+    <link rel="stylesheet" href="libs/bootstrap/bootstrap-grid.min.css"/>
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="css/fonts.css"/>
+    <link rel="stylesheet" href="libs/slick/slick-theme.css"/>
+    <link rel="stylesheet" href="libs/slick/slick.css"/>
+    <link rel="stylesheet" href="css/main.css"/>
+    <link rel="stylesheet" href="css/media.css"/>
+    <link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css"/>
+    <style type="text/css">
 
-	</style>
+    </style>
 
 </head>
 <body>
 
 <div class="fn-wrapper">
 
-	<div id="modal_form"><!-- Сaмo oкнo -->
-	      <div class="popup fn-form-popup-two">
-	      	<span id="modal_close">X</span> <!-- Кнoпкa зaкрыть -->
-	      		<h2>Поздравляем! Вы записались на бесплатное обучение!</h2>
-	      		<p>Наш менеджер свяжется с Вами в ближайшее время и уточнит все детали.</p>
-	      		<p class="text-blue">Подписывайтесь на наши соц.сети и будьте в курсе последних новостей</p>
-	      		<ul class="fn-popup-sosial">
-	      			<li><a href="https://www.google.com.ua/" class="sosial">
-	      				<i class="fa fa-vk" aria-hidden="true"></i></a>
-	      				<p>Показываем как проходит обучение, общаемся с учиниками </p>
-	      			</li>
-	      			<li>
-	      				<a href="https://www.google.com.ua/" class="sosial">
-	      					<i class="fa fa-google-plus" aria-hidden="true"></i>
-	      				</a>
-	      				<p>Рассказываем интересные истории из мира финансов</p>
-	      			</li>
-	      			<li>
-	      				<a href="https://www.google.com.ua/" class="sosial">
-	      					<i class="fa fa-youtube-play" aria-hidden="true"></i>
-	      				</a>
-	      				<p>Презентуем программы обучения и выкладываем записи лекций</p>
-	      			</li>
-	      			<li>
-	      				<a href="https://www.google.com.ua/" class="sosial-img"><img src="img/logo2.png"></a>
-	      				<p>Оригинальный сайт, где вы можете узнать все о нашем институте и посмотреть расписание</p>
-	      			</li>
-	      		</ul>
-	     </div>
-	</div>
+    <div id="modal_form"><!-- Сaмo oкнo -->
+        <div class="popup fn-form-popup-two">
+            <span id="modal_close">X</span> <!-- Кнoпкa зaкрыть -->
+            <h2>Поздравляем! Вы записались на бесплатное обучение!</h2>
+            <p>Наш менеджер свяжется с Вами в ближайшее время и уточнит все детали.</p>
+            <p class="text-blue">Подписывайтесь на наши соц.сети и будьте в курсе последних новостей</p>
+            <ul class="fn-popup-sosial">
+                <li><a href="https://www.google.com.ua/" class="sosial">
+                    <i class="fa fa-vk" aria-hidden="true"></i></a>
+                    <p>Показываем как проходит обучение, общаемся с учиниками </p>
+                </li>
+                <li>
+                    <a href="https://www.google.com.ua/" class="sosial">
+                        <i class="fa fa-google-plus" aria-hidden="true"></i>
+                    </a>
+                    <p>Рассказываем интересные истории из мира финансов</p>
+                </li>
+                <li>
+                    <a href="https://www.google.com.ua/" class="sosial">
+                        <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                    </a>
+                    <p>Презентуем программы обучения и выкладываем записи лекций</p>
+                </li>
+                <li>
+                    <a href="https://www.google.com.ua/" class="sosial-img"><img src="img/logo2.png"></a>
+                    <p>Оригинальный сайт, где вы можете узнать все о нашем институте и посмотреть расписание</p>
 
-	<div id="overlay"></div><!-- Пoдлoжкa -->
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="overlay"></div><!-- Пoдлoжкa -->
 
 
+    <section class="slider">
 
+        <div class="fn-banner">
+            <header class="fn-header">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-2 col-sm-2">
+                            <div class="fn-header__logo">
 
-	<section class="slider">
-
-			<div class="fn-banner">
-				<header class="fn-header">
-					<div class="container">
-						<div class="row">
-							<div class="col-md-2 col-sm-2">
-								<div class="fn-header__logo">
-									<a href=""><img src="img/logo.png" class="img-responsive"></a>
-								</div>
-								<a class="menu-cont" href="#">
-									<span class="menu"></span>
-									<span class="menu-txt">
+                                <a href=""><img src="img/logoF.png" class="img-responsive"></a>
+                            </div>
+                            <a class="menu-cont" href="#">
+                                <span class="menu"></span>
+                                <span class="menu-txt">
 									</span>
-								 </a>
-							</div>
-							<div class="col-md-8 col-sm-8 ">
-								<nav  class="fn-header__navigation">
-									<ul id="#menu" class="fn-header__navbar">
-										<li><a href="#result">Результаты</a></li>
-										<li><a href="#programm">Программа обучения</a></li>
-										<li><a href="#license">Лицензия</a></li>
-										<li><a href="#smi">СМИ о нас</a></li>
-									</ul>
-								</nav>
-							</div>
-							<div class="col-md-2">
-								<p class="fn-phone none"><a href="">+7 (925) 864 11 13</a></p>
+                            </a>
+                        </div>
+                        <div class="col-md-8 col-sm-8 ">
+                            <nav class="fn-header__navigation">
+                                <ul id="#menu" class="fn-header__navbar">
+                                    <li><a href="#result">Результаты</a></li>
+                                    <li><a href="#programm">Программа обучения</a></li>
+                                    <li><a href="#license">Лицензия</a></li>
+                                    <li><a href="#smi">СМИ о нас</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="col-md-2">
+                            <p class="fn-phone none"><a href="">+7 (925) 864 11 13</a></p>
 
-							</div>
+                        </div>
 
-						</div>
-					</div>
-				</header>
-				<div class="container">
-					<div class="row">
-						<div class="col-md-12">
-							<h1>Бесплатное обучение заработку на криптовалюте в первом
-								и единственном институте трейндинга и инвестиций
-								в Российской Федерации!</h1>
-							<h2>Мы набираем бесплатную тестовую<br>
-							группу из 10 человек!</h2>
-							<form class="fn-contact__form-big" >
-								<div class="col-md-4">
-									<div class="form-input">
-										<input type="text"  placeholder="Ваше имя" class="input" required>
-									</div>
-									</div>
-									<div class="col-md-4">
-										<div class="form-input">
-											<input type="text"  id="phone" class="input"  placeholder="Ваше телефон" required>
-										</div>
-									</div>
-									<div class="col-md-4">
-										<div class="form-input">
+                    </div>
+                </div>
+            </header>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1>Бесплатное обучение заработку на криптовалюте в первом
+                            и единственном институте трейндинга и инвестиций
+                            в Российской Федерации!</h1>
+                        <h2>Мы набираем бесплатную тестовую<br>
+                            группу из 10 человек!</h2>
+                        <form class="fn-contact__form-big">
+                            <div class="col-md-4">
+                                <div class="form-input">
+                                    <input type="text" placeholder="Ваше имя" class="input" required>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-input">
+                                    <input type="text" id="phone" class="input" placeholder="Ваше телефон" required>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-input">
 
-											<button class="fn-btn btn-form-four " >Записаться</button>
-										</div>
-									</div>
+                                    <button class="fn-btn btn-form-four ">Записаться</button>
+                                </div>
+                            </div>
 
-							</form>
-							<div class="fn-form-popup">
-								<div class="fn-form-popup__wrapper">
-									<p id="usernamePopup">Алексей Новиков записался  на бесплатное обучение</p>
-									<div class="fn-number ">
-										<span class="timer">8</span>
-										<p>мест осталось</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="fn-top-header-wrapp">
-					<div class="fn-top-header">
-						<div class="container">
-							<div class="row">
-								<div class="col-md-4">
-									<div class="fn-top-header__item">
-										<div class="fn-top-header__item-img ">
-											<img src="img/blockchain.png">
-										</div>
-										<p class="text">Секретные методики  заработка</p>
-									</div>
-								</div>
+                        </form>
+                        <div class="fn-form-popup">
+                            <div class="fn-form-popup__wrapper">
+                                <p id="usernamePopup">Алексей Новиков записался на бесплатное обучение</p>
+                                <div class="fn-number ">
+                                    <span class="timer">8</span>
+                                    <p>мест осталось</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="fn-top-header-wrapp">
+                <div class="fn-top-header">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="fn-top-header__item">
+                                    <div class="fn-top-header__item-img ">
+                                        <img src="img/blockchain.png">
+                                    </div>
+                                    <p class="text">Секретные методики заработка</p>
+                                </div>
+                            </div>
 
-								<div class="col-md-4">
-									<div class="fn-top-header__item ">
-										<div class="fn-top-header__item-img">
-											<img src="img/profits.png">
-										</div>
-										<p class="text">Проверенные стратегии  инвестирования</p>
-									</div>
-								</div>
+                            <div class="col-md-4">
+                                <div class="fn-top-header__item ">
+                                    <div class="fn-top-header__item-img">
+                                        <img src="img/profits.png">
+                                    </div>
+                                    <p class="text">Проверенные стратегии инвестирования</p>
+                                </div>
+                            </div>
 
-								<div class="col-md-4">
-									<div class="fn-top-header__item">
-										<div class="fn-top-header__item-img ">
-											<img src="img/seo.png">
-										</div>
-										<p class="text">Приватные консультации  с опытными аналитиками</p>
-									</div>
-								</div>
+                            <div class="col-md-4">
+                                <div class="fn-top-header__item">
+                                    <div class="fn-top-header__item-img ">
+                                        <img src="img/seo.png">
+                                    </div>
+                                    <p class="text">Приватные консультации с опытными аналитиками</p>
+                                </div>
+                            </div>
 
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
-				<div class="fn-banner-two">
-					<header class="fn-header">
-						<div class="container">
-							<div class="row">
-								<div class="col-md-2 col-sm-2">
-									<div class="fn-header__logo">
-										<a href=""><img src="img/logo.png" class="img-responsive"></a>
-									</div>
-									<a class="menu-cont cont" href="#">
-										<span class="menu"></span>
-										<span class="menu-txt">
+        <div class="fn-banner-two">
+            <header class="fn-header">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-2 col-sm-2">
+                            <div class="fn-header__logo">
+                                <a href=""><img src="img/logo.png" class="img-responsive"></a>
+                            </div>
+                            <a class="menu-cont cont" href="#">
+                                <span class="menu"></span>
+                                <span class="menu-txt">
 										</span>
-									 </a>
-								</div>
-								<div class="col-md-8 col-sm-8 ">
-									<nav  class="fn-header__navigation">
-										<ul id="#menu" class="fn-header__navbar">
-											<li><a href="#result">Результаты</a></li>
-											<li><a href="#programm">Программа обучения</a></li>
-											<li><a href="#license">Лицензия</a></li>
-											<li><a href="#smi">СМИ о нас</a></li>
-										</ul>
-									</nav>
-								</div>
-								<div class="col-md-2">
-									<p class="fn-phone none"><a href="tel:+79258641113">+7 (925) 864 11 13</a></p>
+                            </a>
+                        </div>
+                        <div class="col-md-8 col-sm-8 ">
+                            <nav class="fn-header__navigation">
+                                <ul id="#menu" class="fn-header__navbar">
+                                    <li><a href="#result">Результаты</a></li>
+                                    <li><a href="#programm">Программа обучения</a></li>
+                                    <li><a href="#license">Лицензия</a></li>
+                                    <li><a href="#smi">СМИ о нас</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="col-md-2">
+                            <p class="fn-phone none"><a href="tel:+79258641113">+7 (925) 864 11 13</a></p>
 
-								</div>
-							</div>
-						</div>
-					</header>
-					<div class="container">
-						<div class="row">
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <div class="container">
+                <div class="row">
 
-							<div class="col-md-12">
-								<h1 class="">Бесплатное обучение пассивному заработку на криптовалютах
-в первом и единственном институте трейндинга
-и инвестиций в Российской Федерации!
-</h1>
-								<!-- <div class="fn-form-popup-two">
-									<h2>Спасибо</h2>
-									<a class="close" href="#popup1">&times;</a>
-									<p>Наш менеджер свяжется с Вами в ближайшее время.</p>
-									<p class="text-blue">Подписывайтесь на наши соц.сети и будьте в курсе последних новостей</p>
-									<ul class="fn-popup-sosial">
-										<li><a href="" class="sosial">
-											<i class="fa fa-vk" aria-hidden="true"></i></a>
-											<p>Пишем про инвестиции, акции и компании</p></li>
-										<li>
-											<a href="" class="sosial">
-												<i class="fa fa-google-plus" aria-hidden="true"></i>
-											</a>
-											<p>Рассказываем интересные истории из мира финансов</p></li>
-										<li>
-											<a href="" class="sosial">
-												<i class="fa fa-youtube-play" aria-hidden="true"></i>
-											</a>
-											<p>Презентуем наши инвестиционные портфели</p></li>
-										<li>
-											<a href="" class="sosial-img"><img src="img/logo.png"></a>
-											<p>Размышляем на темы, которые нас волнуют</p></li>
-									</ul> -->
-								</div>
+                    <div class="col-md-12">
+                        <h1 class="">Бесплатное обучение пассивному заработку на криптовалютах
+                            в первом и единственном институте трейндинга
+                            и инвестиций в Российской Федерации!
+                        </h1>
+                        <!-- <div class="fn-form-popup-two">
+                            <h2>Спасибо</h2>
+                            <a class="close" href="#popup1">&times;</a>
+                            <p>Наш менеджер свяжется с Вами в ближайшее время.</p>
+                            <p class="text-blue">Подписывайтесь на наши соц.сети и будьте в курсе последних новостей</p>
+                            <ul class="fn-popup-sosial">
+                                <li><a href="" class="sosial">
+                                    <i class="fa fa-vk" aria-hidden="true"></i></a>
+                                    <p>Пишем про инвестиции, акции и компании</p></li>
+                                <li>
+                                    <a href="" class="sosial">
+                                        <i class="fa fa-google-plus" aria-hidden="true"></i>
+                                    </a>
+                                    <p>Рассказываем интересные истории из мира финансов</p></li>
+                                <li>
+                                    <a href="" class="sosial">
+                                        <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                                    </a>
+                                    <p>Презентуем наши инвестиционные портфели</p></li>
+                                <li>
+                                    <a href="" class="sosial-img"><img src="img/logo.png"></a>
+                                    <p>Размышляем на темы, которые нас волнуют</p></li>
+                            </ul> -->
+                    </div>
 
-							<div class="col-md-6">
-								<p>За 2017 год 97% людей потеряли свои деньги
-									на криптовалютах, или были обмануты
-									мошенниками по причине не знания!
-									ВЫ ХОТИТЕ БЫТЬ В ЧИСЛЕ ОСТАВШИХСЯ 3%?
-								</p>
-								<h2>Мы набираем бесплатную тестовую   группу из 10 человек!</h2>
+                    <div class="col-md-6">
+                        <p>За 2017 год 97% людей потеряли свои деньги
+                            на криптовалютах, или были обмануты
+                            мошенниками по причине не знания!
+                            ВЫ ХОТИТЕ БЫТЬ В ЧИСЛЕ ОСТАВШИХСЯ 3%?
+                        </p>
+                        <h2>Мы набираем бесплатную тестовую группу из 10 человек!</h2>
 
-							</div>
-							<div class="col-md-6">
-								<form class="fn-contact__form-big">
-									<div class="overflow">
+                    </div>
+                    <div class="col-md-6">
+                        <form class="fn-contact__form-big">
+                            <div class="overflow">
 
-									</div>
-									<h3 class="title-form-banner">Подать заявку на обучения</h3>
-									<div class="col-md-4 padd-none">
-										<div class="fn-number ">
-											<span class="mest__timer-four">8</span>
-											<p>мест осталось</p>
-										</div>
-									</div>
-									<div class="col-md-7 padd-none">
-										<div class="form-input">
-											<input type="text" name="name" class="input"  placeholder="Ваше имя" required>
-										</div>
-										<div class="form-input">
-											<input type="text" name="phone" class="input"  id="phone-two" placeholder="Ваше телефон" required>
-										</div>
-										<div class="form-input">
-											<button  class="fn-btn btn-form-four" >Записаться</button>
-										</div>
-									</div>
+                            </div>
+                            <h3 class="title-form-banner">Подать заявку на обучения</h3>
+                            <div class="col-md-4 padd-none">
+                                <div class="fn-number ">
+                                    <span class="mest__timer-four">8</span>
+                                    <p>мест осталось</p>
+                                </div>
+                            </div>
+                            <div class="col-md-7 padd-none">
+                                <div class="form-input">
+                                    <input type="text" name="name" class="input" placeholder="Ваше имя" required>
+                                </div>
+                                <div class="form-input">
+                                    <input type="text" name="phone" class="input" id="phone-two"
+                                           placeholder="Ваше телефон" required>
+                                </div>
+                                <div class="form-input">
+                                    <button class="fn-btn btn-form-four">Записаться</button>
+                                </div>
+                            </div>
 
-								</form>
+                        </form>
 
-							</div>
-
-
-
-						</div>
+                    </div>
 
 
+                </div>
 
-					</div>
-					<div class="fn-top-header-wrapp">
-						<div class="fn-top-header">
-							<div class="container">
-								<div class="row">
-									<div class="col-md-4">
-										<div class="fn-top-header__item">
-											<div class="fn-top-header__item-img ">
-												<img src="img/blockchain.png">
-											</div>
-											<p class="text">Секретные методики  заработка</p>
-										</div>
-									</div>
 
-									<div class="col-md-4">
-										<div class="fn-top-header__item ">
-											<div class="fn-top-header__item-img">
-												<img src="img/profits.png">
-											</div>
-											<p class="text">Проверенные стратегии  инвестирования</p>
-										</div>
-									</div>
+            </div>
+            <div class="fn-top-header-wrapp">
+                <div class="fn-top-header">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="fn-top-header__item">
+                                    <div class="fn-top-header__item-img ">
+                                        <img src="img/blockchain.png">
+                                    </div>
+                                    <p class="text">Секретные методики заработка</p>
+                                </div>
+                            </div>
 
-									<div class="col-md-4">
-										<div class="fn-top-header__item">
-											<div class="fn-top-header__item-img ">
-												<img src="img/seo.png">
-											</div>
-											<p class="text">Приватные консультации  с опытными аналитиками</p>
-										</div>
-									</div>
+                            <div class="col-md-4">
+                                <div class="fn-top-header__item ">
+                                    <div class="fn-top-header__item-img">
+                                        <img src="img/profits.png">
+                                    </div>
+                                    <p class="text">Проверенные стратегии инвестирования</p>
+                                </div>
+                            </div>
 
-								</div>
-							</div>
-						</div>
-					</div>
+                            <div class="col-md-4">
+                                <div class="fn-top-header__item">
+                                    <div class="fn-top-header__item-img ">
+                                        <img src="img/seo.png">
+                                    </div>
+                                    <p class="text">Приватные консультации с опытными аналитиками</p>
+                                </div>
+                            </div>
 
-				</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-			<div class="fn-banner-two">
-				<header class="fn-header">
-					<div class="container">
-						<div class="row">
-							<div class="col-md-2 col-sm-2">
-								<div class="fn-header__logo">
-									<a href=""><img src="img/logo.png" class="img-responsive"></a>
-								</div>
-								<a class="menu-cont cont" href="#">
-									<span class="menu"></span>
-									<span class="menu-txt">
+        </div>
+
+        <div class="fn-banner-two">
+            <header class="fn-header">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-2 col-sm-2">
+                            <div class="fn-header__logo">
+                                <a href=""><img src="img/logo.png" class="img-responsive"></a>
+                            </div>
+                            <a class="menu-cont cont" href="#">
+                                <span class="menu"></span>
+                                <span class="menu-txt">
 									</span>
-								 </a>
-							</div>
-							<div class="col-md-8 col-sm-8 ">
-								<nav  class="fn-header__navigation">
-									<ul id="#menu" class="fn-header__navbar">
-										<li><a href="#result">Результаты</a></li>
-										<li><a href="#programm">Программа обучения</a></li>
-										<li><a href="#license">Лицензия</a></li>
-										<li><a href="#smi">СМИ о нас</a></li>
-									</ul>
-								</nav>
-							</div>
-							<div class="col-md-2">
-								<p class="fn-phone none"><a href="tel:+79258641113">+7 (925) 864 11 13</a></p>
-
-							</div>
-						</div>
-					</div>
-				</header>
-				<div class="container">
-					<div class="row">
-
-						<div class="col-md-12">
-							<h1 class="">Бесплатное обучение пассивному заработку
-								на криптовалютах в первом институте
-								трейндинга и инвестиций
-								в Российской Федерации!
-							</h1>
-							<!-- <div class="fn-form-popup-two">
-								<h2>Спасибо</h2>
-								<a class="close" href="#popup1">&times;</a>
-								<p>Наш менеджер свяжется с Вами в ближайшее время.</p>
-								<p class="text-blue">Подписывайтесь на наши соц.сети и будьте в курсе последних новостей</p>
-								<ul class="fn-popup-sosial">
-									<li><a href="" class="sosial">
-										<i class="fa fa-vk" aria-hidden="true"></i></a>
-										<p>Пишем про инвестиции, акции и компании</p></li>
-									<li>
-										<a href="" class="sosial">
-											<i class="fa fa-google-plus" aria-hidden="true"></i>
-										</a>
-										<p>Рассказываем интересные истории из мира финансов</p></li>
-									<li>
-										<a href="" class="sosial">
-											<i class="fa fa-youtube-play" aria-hidden="true"></i>
-										</a>
-										<p>Презентуем наши инвестиционные портфели</p></li>
-									<li>
-										<a href="" class="sosial-img"><img src="img/logo.png"></a>
-										<p>Размышляем на темы, которые нас волнуют</p></li>
-								</ul> -->
-							</div>
-
-						<div class="col-md-6">
-							<p>Зарабатывайте от 70 000 рублей в месяц
-								в ближайшие 1-2 месяца после обучения
-							</p>
-							<h2>Мы набираем бесплатную тестовую   группу из 10 человек!</h2>
-
-
-						</div>
-						<div class="col-md-6">
-							<form class="fn-contact__form-big">
-								<div class="overflow">
-
-								</div>
-								<h3 class="title-form-banner">Подать заявку на обучения</h3>
-								<div class="col-md-4 padd-none">
-									<div class="fn-number ">
-										<span class="mest__timer-four">8</span>
-										<p>мест осталось</p>
-									</div>
-								</div>
-								<div class="col-md-7 padd-none">
-									<div class="form-input">
-										<input type="text" name="name" class="input"  placeholder="Ваше имя" required>
-									</div>
-									<div class="form-input">
-										<input type="text" name="phone" class="input"  id="phone-two" placeholder="Ваше телефон" required>
-									</div>
-									<div class="form-input">
-										<button  class="fn-btn btn-form-four" >Записаться</button>
-									</div>
-								</div>
-
-							</form>
-
-						</div>
-						<div class="col-md-9">
-							<div class="col-md-3">
-								<div class="fn-top-header__item">
-									<div class="fn-top-header__item-img ">
-										<img src="img/blockchain.png">
-									</div>
-									<p class="text-min">Секретные методики  заработка</p>
-								</div>
-							</div>
-
-							<div class="col-md-4">
-								<div class="fn-top-header__item ">
-									<div class="fn-top-header__item-img">
-										<img src="img/profits.png">
-									</div>
-									<p class="text-min">Проверенные стратегии  инвестирования</p>
-								</div>
-							</div>
-
-							<div class="col-md-4">
-								<div class="fn-top-header__item">
-									<div class="fn-top-header__item-img ">
-										<img src="img/seo.png">
-									</div>
-									<p class="text-min">Приватные консультации  с опытными аналитиками</p>
-								</div>
-							</div>
-						</div>
-
-
-
-					</div>
-				</div>
-				<div class="fn-top-header-img">
-					<img src="img/hv.png" alt="" class="img-voln">
-				</div>
-
-			</div>
-
-	</section>
-
-	<section class="fn-results">
-		<div class="container">
-			<div class="row">
-				<div class="fn-title-section">
-					<h3>РЕЗУЛЬТАТЫ ПОСЛЕ ОБУЧЕНИЯ</h3>
-				</div>
-				<div class="col-md-4">
-					<div class="fn-results_item">
-						<img class="fn-line" src="img/element.png">
-						<div class="fn-results__progress">
-						  <svg class="svg" viewBox="0 0 200 200" preserveAspectRatio="xMinYMin" version="1.1" xmlns="http://www.w3.org/2000/svg">
-						    <circle class="circle" r="90" cx="100" cy="100" fill="transparent" stroke-dashoffset="0"></circle>
-						    <circle class="bar" r="90" cx="100" cy="100" fill="transparent" stroke-dashoffset="0"></circle>
-						  </svg>
-						  <span class="pctTxt">23%</span>
-						  <span class="percentage">учеников</span>
-						</div>
-						<p class="fn-results_item-text">Зарабатывают свою первую $1000  в процессе обучения</p>
-					</div>
-				</div>
-
-				<div class="col-md-4">
-					<div class="fn-results_item">
-						<img class="fn-line" src="img/element2.png">
-						<div class="fn-results__progress">
-						  <svg class="svg" viewBox="0 0 200 200" preserveAspectRatio="xMinYMin" version="1.1" xmlns="http://www.w3.org/2000/svg">
-						    <circle class="circle" r="90" cx="100" cy="100" fill="transparent" stroke-dashoffset="0"></circle>
-						    <circle class="bar2" r="90" cx="100" cy="100" fill="transparent" stroke-dashoffset="0"></circle>
-						  </svg>
-						  <span class="pctTxt">41%</span>
-						  <span class="percentage">учеников</span>
-						</div>
-						<p class="fn-results_item-text">Зарабатывают $1000 в ближайшие
-1-2 месяца после обучения</p>
-					</div>
-				</div>
-
-				<div class="col-md-4">
-					<div class="fn-results_item">
-						<img class="fn-line" src="img/element3.png">
-						<p class="price">53 741$</p>
-						<p class="fn-results_item-text">За 1 месяц составила рекордная
-прибыль нашего ученика
-после обучения</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-
-
-		<section id="result" class="fn-doubt">
-			<div class="container">
-				<div class="row">
-					<div class="fn-title-section fn-text-white">
-						<h3>ПОКА ВЫ СОМНЕВАЕТЕСЬ
-						ВАШЕ МЕСТО ЗАЙМЕТ КТО-ТО ДРУГОЙ!</h3>
-					</div>
-
-					<div class="col-md-7">
-						<form class="fn-contact__form-big ">
-							<h5 class="form-title">Обучайтесь бесплатно. <br>Такого больше не будет НИКОГДА!</h5>
-							<div class="col-md-7 padd-none">
-								<div class="form-input">
-									<input type="text"  placeholder="Ваше имя" class="input"  required>
-								</div>
-								<div class="form-input">
-									<input type="text" id="phone-three" class="input"  placeholder="Ваше телефон" required>
-								</div>
-								<div class="form-input">
-									<button class="fn-btn btn-form-four"  href="#popup1">Записаться</button>
-								</div>
-							</div>
-							<div class="col-md-4 padd-none">
-								<div class="fn-number">
-									<span class="mest__timer-two">8</span>
-									<p>мест осталось</p>
-								</div>
-							</div>
-						</form>
-					</div>
-
-					<div class="col-md-5">
-						<div class="fn-doubt__image">
-							<img src="img/img.png" class="img-responsive">
-						</div>
-					</div>
-
-				</div>
-			</div>
-		</section>
-
-
-
-
-	<section  id="license" class="fn-license">
-		<div class="container">
-			<div class="row">
-				<div class="fn-title-section">
-					<h3>НАША ЛИЦЕНЗИЯ</h3>
-					<p>Мы единственные в России у кого есть лицензия на обучение!</p>
-					<hr class="line-green">
-				</div>
-				<div class="fn-license__wrapper">
-					<p>После прохождения обучения Вы получите свидетельство о дополнительном профессиональном
-						образовании, а при прохождении полного курса - диплом  с присвоением
-						квалификации «Трейдер».
-					</p>
-					<div class="fn-license__img">
-						<a data-fancybox href="img/license.jpg"><img src="img/license.jpg"></a>
-					</div>
-					<div class="fn-license__img">
-						<a data-fancybox href="img/license.jpg"><img src="img/license.jpg"></a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-
-
-	<section id="smi" class="fn-smi">
-		<div class="container-fluid">
-			<div class="row">
-					<div class="fn-title-section">
-						<h3>Сми о нас</h3>
-					</div>
-				<div class="fn-students__wrapper">
-					<img src="img/line.png" class="line-right">
-					<img src="img/line-left.png" class="line-left">
-					 <div class="fn-student__slide-middle fn-programm__slider ">
-
-					 	<div class="fn-student__slide-wrapp col-md-4">
-						 	<div class="fn-student__slide-middle--item">
-						 		<div class="fn-student-slide-middle__img">
-						 			<h3>Аргументы <br> и  факты</h3>
-						 			<div class="img-wrapp">
-						 				<img src="img/Logo_aif2.png" class="img-responsive" >
-						 			</div>
-						 		</div>
-						 		<p>29 сентября 2017 года, руководитель
-						 			аналитического департамента
-						 			ИТИ «ФЕНИКС» Екатерина Туманова,
-						 			дала интервью корреспонденту газеты
-						 			«Аргументы и Факты» и ответила
-						 			на главный вопрос: «Где проще
-						 			заработать — на фондовом рынке
-						 			или валютном?</p>
-						 		<a href="http://www.aif.ru/money/market/dva_velikih_titana_gde_proshche_zarabotat_na_fondovom_rynke_ili_valyutnom" target="_blank">Прочитать полностью</a>
-						 	</div>
-						 </div>
-						  <div class="fn-student__slide-wrapp col-md-4">
-						 	<div class="fn-student__slide-middle--item">
-						 		<div class="fn-student-slide-middle__img">
-						 			<h3>Центр</h3>
-						 			<div class="img-wrapp">
-						 				<img src="img/centr-1.jpg" class="img-responsive" >
-						 			</div>
-						 		</div>
-						 		<p>
-						 			Телеканал ТВ «Центр», программа «Индекс выгоды»
-						 			13.02.2016 10:30.
-						 			Алена Ботникова, руководитель отделения
-						 			INTENSIVE ИТИ «Феникс», рассказывает об
-						 			институте и проводит экскурсию
-						 			корреспондентам с телеканала ТВ центр. Учись у лучших!
-						 		</p>
-						 		<a href="http://www.tvc.ru/channel/brand/id/20/show/episodes/episode_id/43282/" target="_blank">Прочитать полностью</a>
-						 	</div>
-						 </div>
-
-
-
-
-						<div class="fn-student__slide-wrapp col-md-4">
-							<div class="fn-student__slide-middle--item">
-								<div class="fn-student-slide-middle__img">
-									<h3>Москва</h3>
-									<div class="img-wrapp">
-										<img src="img/moscov.png" class="img-responsive" >
-									</div>
-								</div>
-								<p>
-									6 июня 2015 г. доллару исполнилось 230 лет.
-									В программе «ВЕЧЕР», на канале «Москва 24»,
-									руководитель отделения INTENSIVE ИТИ
-									«Феникс», Алена Ботникова, дала интервью
-									о том, как ей удалось заработать на падении
-									рубля в 2014 г. на финансовых рынках.
-								</p>
-								<a href="http://www.m24.ru/videos/84606" target="_blank">Прочитать полностью</a>
-							</div>
-						</div>
-
-
-						<div class="fn-student__slide-wrapp col-md-4">
-							<div class="fn-student__slide-middle--item">
-								<div class="fn-student-slide-middle__img">
-									<h3>Звезда</h3>
-									<div class="img-wrapp">
-										<img src="img/star-1.jpg" class="img-responsive" >
-									</div>
-								</div>
-								<p>
-									Выпуск от 5 апреля 2015 года.
-									Программа «Научный детектив» на телеканале
-									«Звезда». Куда катится доллар?
-									В гостях программы руководитель отделения
-									INTENSIVE ИТИ «Феникс» - Алена Ботникова
-									и ее яркое мнение на этот счет. Учись у лучших!
-								</p>
-								<a href="https://www.youtube.com/embed/3p3RHtiDn0k" target="_blank">Прочитать полностью</a>
-							</div>
-						</div>
-
-						<div class="fn-student__slide-wrapp col-md-4">
-							<div class="fn-student__slide-middle--item">
-								<div class="fn-student-slide-middle__img">
-									<h3>Деньги</h3>
-									<div class="img-wrapp">
-										<img src="img/chuzhie-dengi-1.jpg" class="img-responsive" >
-									</div>
-								</div>
-								<p>
-									Номер издания 3(135), год: 2015
-									Алена Ботникова, руководитель отделения
-									INTENSIVE ИТИ «Феникс», делится с читателями
-									о том, что работа обязана быть в радость,
-									только в таком случае финансовая независимость
-									и видимая польза от деятельности доставляют
-									истинное удовольствие.
-									Учись у лучших!
-								</p>
-								<a href="http://www.fxmoney.ru/node/3183" target="_blank">Прочитать полностью</a>
-							</div>
-						</div>
-
-						<div class="fn-student__slide-wrapp col-md-4">
-							<div class="fn-student__slide-middle--item">
-								<div class="fn-student-slide-middle__img">
-									<h3>Деловой квартал</h3>
-									<div class="img-wrapp">
-										<img src="img/log1.png" class="img-responsive" >
-									</div>
-								</div>
-								<p>
-									22 марта 2017 года
-									Председатель комитета по финансовым рынкам
-									и кредитным организациям Торгово-промышленной
-									палаты РФ Яков Миркин и руководитель отделения
-									INTENSIVE ИТИ «Феникс» Алена Ботникова о
-									прогнозах курса рубля на 2017 год.
-									Учись у лучших!
-								</p>
-								<a href="https://www.ridus.ru/search?utf8=%E2%9C%93&query=%D0%91%D0%BE%D1%82%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2%D0%B0" target="_blank">Прочитать полностью</a>
-							</div>
-						</div>
-
-						<div class="fn-student__slide-wrapp col-md-4">
-							<div class="fn-student__slide-middle--item">
-								<div class="fn-student-slide-middle__img">
-									<h3>Белта</h3>
-									<div class="img-wrapp">
-										<img src="img/belta-1.jpg" class="img-responsive" >
-									</div>
-								</div>
-								<p>
-									Марк Гойхман, выпускник ИТИ «ФЕНИКС»,
-									а также трейдер-аналитик ГК Teletrade,
-									13 июля 2016 г. в г.Минске участвовал в брифинге
-									для СМИ Белоруссии по вопросам перспектив
-									влияния финансовых рынков на экономику
-									Белоруссии и российско-белорусского
-									сотрудничества. По оценкам агентств, 13 июля
-									Марк Гойхман был наиболее цитируемым СМИ
-									экспертом.Учись у лучших!
-								</p>
-								<a href="http://www.belta.by/economics/view/gojhman-opyt-rossii-podtverdil-chto-denominatsija-pozitivnoe-javlenie-201614-2016/" target="_blank">Прочитать полностью</a>
-							</div>
-						</div>
-
-<!-- 						<div class="fn-student__slide-wrapp col-md-4">
-							<div class="fn-student__slide-middle--item">
-								<div class="fn-student-slide-middle__img">
-									<h3>Аргументы та факты</h3>
-									<div class="img-wrapp">
-										<img src="img/Logo_aif2.png" class="img-responsive" >
-									</div>
-								</div>
-								<p>
-									Ростовское издание «Деловой квартал»
-									опубликовало ответы Марка Гойхмана,
-									выпускника ИТИ «ФЕНИКС», а также
-									трейдера-аналитика ГК Teletrade,
-									на вопросы газеты об экономике и уровне
-									жизни в области 31.12.2015.
-									Учись у лучших!
-								</p>
-								<a href="http://rostov.dk.ru/news/itogi-goda-koshelki-rostovchan-pohudeli-no-nadezhda-umiraet-posledney-236998223" target="_blank">Прочитать полностью</a>
-							</div>
-						</div>
- -->
-
-					</div>
-
-<!-- 					<div class="col-md-5 col-sm-5">
-						<div class="fn-students__item   slider-left">
-
-							<div class="item">
-								<img src="img/belta-1.jpg">
-							</div >
-
-							<div class="item">
-								<img src="img/Logo_aif2.png">
-							</div >
-							<div class="item">
-								<img src="img/centr-1.jpg">
-							</div >
-							<div class="item">
-								<img src="img/moscov.png">
-							</div >
-							<div class="item">
-								<img src="img/star-1.jpg">
-							</div >
-							<div class="item">
-								<img src="img/chuzhie-dengi-1.jpg">
-							</div >
-							<div class="item">
-								<img src="img/log1.png">
-							</div >
-
-						</div>
-					</div>
-						<div class="col-md-7 col-sm-7">
-							<div class=" fn-students__item-left slider-right">
-
-								<div class="item">
-									<img src="img/Logo_aif2.png">
-								</div >
-								<div class="item">
-									<img src="img/centr-1.jpg">
-								</div >
-								<div class="item">
-									<img src="img/moscov.png">
-								</div >
-								<div class="item">
-									<img src="img/star-1.jpg">
-								</div >
-								<div class="item">
-									<img src="img/chuzhie-dengi-1.jpg">
-								</div >
-								<div class="item">
-									<img src="img/log1.png">
-								</div >
-								<div class="item">
-									<img src="img/belta-1.jpg">
-								</div >
-
-
-							</div>
-						</div>
-
-					</div> -->
-
-
-
-
-
-				</div>
-			</div>
-		</div>
-	</section>
-
-
-	<section class="fn-students">
-		<div class="container">
-			<div class="row">
-
-				<div class="fn-title-section">
-					<h3>Мы обучаем студентов
-и активно сотрудничаем с учебными заведениями</h3>
-				</div>
-				<ul class="fn-students__list">
-					<li>
-						<img src="img/student1.png" class="img-responsive">
-						<p>МГУ</p>
-					</li>
-					<li>
-						<img src="img/n.png" class="img-responsive">
-						<p>НИЦ «Неокономика»</p>
-					</li>
-					<li>
-						<img src="img/cir.png" class="img-responsive">
-						<p>Финансовый <br>
-университет</p>
-					</li>
-
-					<li>
-						<img src="img/ckj.png" class="img-responsive">
-						<p>Всероссийская Академия <br>
-Внешней Торговли</p>
-					</li>
-					<li>
-						<img src="img/ich.png" class="img-responsive">
-						<p>Институт  социальных наук</p>
-					</li>
-				</ul>
-			</div>
-		</div>
-	</section>
-
-
-
-		<section class="fn-contact" style="background: url('img/bg-foter.jpg') 50% center/cover no-repeat;">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-10 col-md-offset-3">
-						<div class="fn-title-section ">
-							<h3>ВЫ ДУМАЕТЕ: "ПОЧЕМУ БЕСПЛАТНО?"</h3>
-							<p>Мы любим ставить эксперименты и решили сравнить результаты
-		учеников платной и бесплатной группы.</p>
-						</div>
-						<form class="fn-contact__form fn-contact__form--two">
-
-							<div class="col-md-8 padd-none">
-								<div class="form-input">
-									<input type="text"  placeholder="Ваше имя" class="input-br input" required>
-								</div>
-								<div class="form-input">
-									<input type="text"  id="phone-four" class="input-br input" placeholder="Ваше телефон" required>
-								</div>
-								<div class="form-input">
-									<button class="fn-btn btn-form-four"  href="#popup1">Записаться</button>
-								</div>
-							</div>
-							<div class="col-md-4 padd-none">
-								<div class="fn-number">
-									<span class="mest__timer-three">8</span>
-									<p>мест осталось</p>
-								</div>
-							</div>
-						</form>
-
-					</div>
-
-				</div>
-			</div>
-
-		</section>
-
-
-
-		<footer class="fn-footer" >
-			<div class="container">
-				<div class="row">
-					<div class="col-md-6">
-						<ul class="fn-footer__nav padd-none">
-							<li><a href="">ООО «Институт трейдинга и инвестиций «ФЕНИКС»</a></li>
-							<li><a href="">109028, Москва, Хохловский переулок, д. 16, стр. 1, офис 16.</a></li>
-							<li><a href="">Лицензия: Серия 77 Л01 №0008532, <br>
-	                        регистационный № 037708 от 21 июля 2016 года</a></li>
-							<li><a href="">Политика конфиденциальности</a></li>
-						</ul>
-					</div>
-					<div class="col-md-3">
-						<ul class="fn-footer__nav border">
-							<li><a href="">ИНН 7709489391</a></li>
-							<li><a href="">КПП 770901001</a></li>
-							<li><a href="">ОКПО 01758822</a></li>
-							<li><a href="">ОГРН 1167746343907</a></li>
-						</ul>
-					</div>
-					<div class="col-md-3">
-						<p class="fn-phone"><a href="">+7 (925) 864 11 13</a></p>
-						<ul class="fn-footer__social">
-							<li><a href=""><img src="img/vk.png"></a></li>
-							<li><a href=""><img src="img/google-plus.png"></</a></li>
-							<li><a href=""><img src="img/youtube.png"></a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</footer>
-
-
-	<section class="fn-contact" >
-		<div class="container">
-			<div class="row">
-				<div class="fn-title-section fn-text-white">
-					<h3>ВЫ ДУМАЕТЕ: "ПОЧЕМУ БЕСПЛАТНО?"</h3>
-					<p>Мы любим ставить эксперименты и решили сравнить результаты
-учеников платной и бесплатной группы.</p>
-				</div>
-				<form class="fn-contact__form">
-					<div class="col-md-4 padd-none">
-						<div class="fn-number">
-							<span class="mest__timer-three">8</span>
-							<p>мест осталось</p>
-						</div>
-					</div>
-					<div class="col-md-8 padd-none">
-						<div class="form-input">
-							<input type="text"  placeholder="Ваше имя" class="input-bg input" required>
-						</div>
-						<div class="form-input">
-							<input type="text"  id="phone-four" class="input-bg input" placeholder="Ваше телефон" required>
-						</div>
-						<div class="form-input">
-							<button class="fn-btn btn-form-four"  href="#popup1">Записаться</button>
-						</div>
-					</div>
-				</form>
-
-			</div>
-		</div>
-
-	</section>
-
-
-
-	<footer class="fn-footer" >
-		<div class="container">
-			<div class="row">
-				<div class="col-md-6">
-					<ul class="fn-footer__nav padd-none">
-						<li><a href="">ООО «Институт трейдинга и инвестиций «ФЕНИКС»</a></li>
-						<li><a href="">109028, Москва, Хохловский переулок, д. 16, стр. 1, офис 16.</a></li>
-						<li><a href="">Лицензия: Серия 77 Л01 №0008532, <br>
-                        регистационный № 037708 от 21 июля 2016 года</a></li>
-						<li><a href="">Политика конфиденциальности</a></li>
-					</ul>
-				</div>
-				<div class="col-md-3">
-					<ul class="fn-footer__nav border">
-						<li><a href="">ИНН 7709489391</a></li>
-						<li><a href="">КПП 770901001</a></li>
-						<li><a href="">ОКПО 01758822</a></li>
-						<li><a href="">ОГРН 1167746343907</a></li>
-					</ul>
-				</div>
-				<div class="col-md-3">
-					<p class="fn-phone"><a href="">+7 (925) 864 11 13</a></p>
-					<ul class="fn-footer__social">
-						<li><a href=""><img src="img/vk.png"></a></li>
-						<li><a href=""><img src="img/google-plus.png"></a></li>
-						<li><a href=""><img src="img/youtube.png"></a></li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</footer>
-
-
-<section class="fn-after-course">
-	<div class="container">
-
-		<div class="fn-title-section ">
-			<h3>После прохождения курса Вы сможете</h3>
-		</div>
-		<img class="fn-after-course__img-fon" src="img/bitcoin.png">
-		<div class="row">
-			<img src="img/course-right.png" class="line-right">
-			<img src="img/course-left.png" class="line-left">
-			<div class="col-md-6 ">
-				<div class="fn-after-course__wrapper">
-					<div class="col-md-8">
-						<div class="fn-after-course__item">
-							<h4>Надежность</h4>
-							<p>За 1 месяц составила рекордная прибыль нашего ученика после обучения</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-8">
-					<div class="fn-after-course__item stability">
-						<h4>Стабильность</h4>
-						<p>За 1 месяц составила рекордная прибыль нашего ученика после обучения</p>
-					</div>
-				</div>
-			</div>
-
-			<div class="col-md-6 ">
-				<div class="fn-after-course__wrapper">
-					<div class="col-md-8 col-md-8 fn-after-course__right">
-						<div class="fn-after-course__item  reliability">
-							<h4>Надежность</h4>
-							<p>За 1 месяц составила рекордная прибыль нашего ученика после обучения</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-8 fn-after-course__right">
-					<div class="fn-after-course__item stability-new">
-						<h4>Надежность</h4>
-						<p>За 1 месяц составила рекордная прибыль нашего ученика после обучения</p>
-					</div>
-				</div>
-			</div>
-
-
-		</div>
-
-
-	</div>
-
-</section>
-
-<section class="fn-funist">
-	<div class="container">
-
-		<div class="fn-title-section fn-text-white">
-			<h3>ФинИст - это уникальное место 
-где концентрируется финансовая элита Москвы. </h3>
-			<p>У нас вы найдете будущих друзей, бизнес партнеров и экспертов
-с кем можно обсудить вопросы инвестирования
-и заработка на различных активах.</p>
-		</div>
-		<div class="row">
-			<div class="col-md-6 pr">
-				<div class="fn-funist__foto ">
-					<img src="img/pEQLvG4z82A.png">
-				</div>
-			</div>
-			<div class="col-md-6 pl">
-				<div class="fn-funist__foto">
-					<img src="img/WgRwnSkfZtQ.png">
-				</div>
-				<div class="fn-funist__foto">
-					<img src="img/xhvsnjNc5qI.png">
-				</div>
-			</div>
-			<div class="col-md-12"> 
-				<div class="fn-funist__text"> 
-					<h4>За все время работы обучение прошло более 5 000 человек</h4>
-					<div class="form-input">
-						<button class="fn-btn btn-form-four">Записаться</button>
-					</div>
-				</div>
-			</div>
-			
-		</div>
-
-
-	</div>
-
-</section>
-
-
-<section class="fn-funist-second">
-	<div class="container">
-
-		<div class="fn-title-section fn-text-white fn-text-left">
-			<h3>ФинИст - это уникальное место<br>
-где концентрируется финансовая элита Москвы. </h3>
-			<p>У нас вы найдете будущих друзей, бизнес партнеров<br> и экспертов
-с кем можно обсудить вопросы инвестирования <br>
-и заработка на различных активах.</p>
-		</div>
-		<div class="row">
-			<div class="col-md-8 pr">
-				<div class="col-md-6 pr">
-					<div class="fn-funist__text "> 
-						<h4 class="fn-text-left">За все время работы обучение прошло более 5 000 человек</h4>
-						<div class="form-input">
-							<button class="fn-btn btn-form-four">Записаться</button>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-6 pr">
-					<div class="fn-funist__foto foto2">
-						<img src="img/pEQLvG4z82Aw.png">
-					</div>
-				</div>
-			</div>
-
-			<div class="col-md-4 pl">
-				<div class="fn-funist__foto foto1">
-					<img src="img/WgRwnSkfZtQc.png">
-				</div>
-				<div class="fn-funist__foto foto2">
-					<img src="img/xhvsnjNc5qIh.png">
-				</div>
-			</div>
-			
-		</div>
-
-
-	</div>
-
-	<img class="elementf" src="img/elementf.png">
-
-</section>
+                            </a>
+                        </div>
+                        <div class="col-md-8 col-sm-8 ">
+                            <nav class="fn-header__navigation">
+                                <ul id="#menu" class="fn-header__navbar">
+                                    <li><a href="#result">Результаты</a></li>
+                                    <li><a href="#programm">Программа обучения</a></li>
+                                    <li><a href="#license">Лицензия</a></li>
+                                    <li><a href="#smi">СМИ о нас</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="col-md-2">
+                            <p class="fn-phone none"><a href="tel:+79258641113">+7 (925) 864 11 13</a></p>
+
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-md-12">
+                        <h1 class="">Бесплатное обучение пассивному заработку
+                            на криптовалютах в первом институте
+                            трейндинга и инвестиций
+                            в Российской Федерации!
+                        </h1>
+                        <!-- <div class="fn-form-popup-two">
+                            <h2>Спасибо</h2>
+                            <a class="close" href="#popup1">&times;</a>
+                            <p>Наш менеджер свяжется с Вами в ближайшее время.</p>
+                            <p class="text-blue">Подписывайтесь на наши соц.сети и будьте в курсе последних новостей</p>
+                            <ul class="fn-popup-sosial">
+                                <li><a href="" class="sosial">
+                                    <i class="fa fa-vk" aria-hidden="true"></i></a>
+                                    <p>Пишем про инвестиции, акции и компании</p></li>
+                                <li>
+                                    <a href="" class="sosial">
+                                        <i class="fa fa-google-plus" aria-hidden="true"></i>
+                                    </a>
+                                    <p>Рассказываем интересные истории из мира финансов</p></li>
+                                <li>
+                                    <a href="" class="sosial">
+                                        <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                                    </a>
+                                    <p>Презентуем наши инвестиционные портфели</p></li>
+                                <li>
+                                    <a href="" class="sosial-img"><img src="img/logo.png"></a>
+                                    <p>Размышляем на темы, которые нас волнуют</p></li>
+                            </ul> -->
+                    </div>
+
+                    <div class="col-md-6">
+                        <p>Зарабатывайте от 70 000 рублей в месяц
+                            в ближайшие 1-2 месяца после обучения
+                        </p>
+                        <h2>Мы набираем бесплатную тестовую группу из 10 человек!</h2>
+
+
+                    </div>
+                    <div class="col-md-6">
+                        <form class="fn-contact__form-big">
+                            <div class="overflow">
+
+                            </div>
+                            <h3 class="title-form-banner">Подать заявку на обучения</h3>
+                            <div class="col-md-4 padd-none">
+                                <div class="fn-number ">
+                                    <span class="mest__timer-four">8</span>
+                                    <p>мест осталось</p>
+                                </div>
+                            </div>
+                            <div class="col-md-7 padd-none">
+                                <div class="form-input">
+                                    <input type="text" name="name" class="input" placeholder="Ваше имя" required>
+                                </div>
+                                <div class="form-input">
+                                    <input type="text" name="phone" class="input" id="phone-two"
+                                           placeholder="Ваше телефон" required>
+                                </div>
+                                <div class="form-input">
+                                    <button class="fn-btn btn-form-four">Записаться</button>
+                                </div>
+                            </div>
+
+                        </form>
+
+                    </div>
+                    <div class="col-md-9">
+                        <div class="col-md-3">
+                            <div class="fn-top-header__item">
+                                <div class="fn-top-header__item-img ">
+                                    <img src="img/blockchain.png">
+                                </div>
+                                <p class="text-min">Секретные методики заработка</p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="fn-top-header__item ">
+                                <div class="fn-top-header__item-img">
+                                    <img src="img/profits.png">
+                                </div>
+                                <p class="text-min">Проверенные стратегии инвестирования</p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="fn-top-header__item">
+                                <div class="fn-top-header__item-img ">
+                                    <img src="img/seo.png">
+                                </div>
+                                <p class="text-min">Приватные консультации с опытными аналитиками</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="fn-top-header-img">
+                <img src="img/hv.png" alt="" class="img-voln">
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="fn-results">
+        <div class="container">
+            <div class="row">
+                <div class="fn-title-section">
+                    <h3>РЕЗУЛЬТАТЫ ПОСЛЕ ОБУЧЕНИЯ</h3>
+                </div>
+                <div class="col-md-4">
+                    <div class="fn-results_item">
+                        <img class="fn-line" src="img/element.png">
+                        <div class="fn-results__progress">
+                            <svg class="svg" viewBox="0 0 200 200" preserveAspectRatio="xMinYMin" version="1.1"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <circle class="circle" r="90" cx="100" cy="100" fill="transparent"
+                                        stroke-dashoffset="0"></circle>
+                                <circle class="bar" r="90" cx="100" cy="100" fill="transparent"
+                                        stroke-dashoffset="0"></circle>
+                            </svg>
+                            <span class="pctTxt">23%</span>
+                            <span class="percentage">учеников</span>
+                        </div>
+                        <p class="fn-results_item-text">Зарабатывают свою первую $1000 в процессе обучения</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="fn-results_item">
+                        <img class="fn-line" src="img/element2.png">
+                        <div class="fn-results__progress">
+                            <svg class="svg" viewBox="0 0 200 200" preserveAspectRatio="xMinYMin" version="1.1"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <circle class="circle" r="90" cx="100" cy="100" fill="transparent"
+                                        stroke-dashoffset="0"></circle>
+                                <circle class="bar2" r="90" cx="100" cy="100" fill="transparent"
+                                        stroke-dashoffset="0"></circle>
+                            </svg>
+                            <span class="pctTxt">41%</span>
+                            <span class="percentage">учеников</span>
+                        </div>
+                        <p class="fn-results_item-text">Зарабатывают $1000 в ближайшие
+                            1-2 месяца после обучения</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="fn-results_item">
+                        <img class="fn-line" src="img/element3.png">
+                        <p class="price">53 741$</p>
+                        <p class="fn-results_item-text">За 1 месяц составила рекордная
+                            прибыль нашего ученика
+                            после обучения</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="result" class="fn-doubt">
+        <div class="container">
+            <div class="row">
+                <div class="fn-title-section fn-text-white">
+                    <h3>ПОКА ВЫ СОМНЕВАЕТЕСЬ
+                        ВАШЕ МЕСТО ЗАЙМЕТ КТО-ТО ДРУГОЙ!</h3>
+                </div>
+
+                <div class="col-md-7">
+                    <form class="fn-contact__form-big ">
+                        <h5 class="form-title">Обучайтесь бесплатно. <br>Такого больше не будет НИКОГДА!</h5>
+                        <div class="col-md-7 padd-none">
+                            <div class="form-input">
+                                <input type="text" placeholder="Ваше имя" class="input" required>
+                            </div>
+                            <div class="form-input">
+                                <input type="text" id="phone-three" class="input" placeholder="Ваше телефон" required>
+                            </div>
+                            <div class="form-input">
+                                <button class="fn-btn btn-form-four" href="#popup1">Записаться</button>
+                            </div>
+                        </div>
+                        <div class="col-md-4 padd-none">
+                            <div class="fn-number">
+                                <span class="mest__timer-two">8</span>
+                                <p>мест осталось</p>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="col-md-5">
+                    <div class="fn-doubt__image">
+                        <img src="img/img.png" class="img-responsive">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section id="license" class="fn-license">
+        <div class="container">
+            <div class="row">
+                <div class="fn-title-section">
+                    <h3>НАША ЛИЦЕНЗИЯ</h3>
+                    <p>Мы единственные в России у кого есть лицензия на обучение!</p>
+                    <hr class="line-green">
+                </div>
+                <div class="fn-license__wrapper">
+                    <p>После прохождения обучения Вы получите свидетельство о дополнительном профессиональном
+                        образовании, а при прохождении полного курса - диплом с присвоением
+                        квалификации «Трейдер».
+                    </p>
+                    <div class="fn-license__img">
+                        <a data-fancybox href="img/license.jpg"><img src="img/license.jpg"></a>
+                    </div>
+                    <div class="fn-license__img">
+                        <a data-fancybox href="img/license.jpg"><img src="img/license.jpg"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="smi" class="fn-smi">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="fn-title-section">
+                    <h3>Сми о нас</h3>
+                </div>
+                <div class="fn-students__wrapper">
+                    <img src="img/line.png" class="line-right">
+                    <img src="img/line-left.png" class="line-left">
+                    <div class="fn-student__slide-middle fn-programm__slider ">
+
+                        <div class="fn-student__slide-wrapp col-md-4">
+                            <div class="fn-student__slide-middle--item">
+                                <div class="fn-student-slide-middle__img">
+                                    <h3>Аргументы <br> и факты</h3>
+                                    <div class="img-wrapp">
+                                        <img src="img/Logo_aif2.png" class="img-responsive">
+                                    </div>
+                                </div>
+                                <p>29 сентября 2017 года, руководитель
+                                    аналитического департамента
+                                    ИТИ «ФЕНИКС» Екатерина Туманова,
+                                    дала интервью корреспонденту газеты
+                                    «Аргументы и Факты» и ответила
+                                    на главный вопрос: «Где проще
+                                    заработать — на фондовом рынке
+                                    или валютном?</p>
+                                <a href="http://www.aif.ru/money/market/dva_velikih_titana_gde_proshche_zarabotat_na_fondovom_rynke_ili_valyutnom"
+                                   target="_blank">Прочитать полностью</a>
+                            </div>
+                        </div>
+                        <div class="fn-student__slide-wrapp col-md-4">
+                            <div class="fn-student__slide-middle--item">
+                                <div class="fn-student-slide-middle__img">
+                                    <h3>Центр</h3>
+                                    <div class="img-wrapp">
+                                        <img src="img/centr-1.jpg" class="img-responsive">
+                                    </div>
+                                </div>
+                                <p>
+                                    Телеканал ТВ «Центр», программа «Индекс выгоды»
+                                    13.02.2016 10:30.
+                                    Алена Ботникова, руководитель отделения
+                                    INTENSIVE ИТИ «Феникс», рассказывает об
+                                    институте и проводит экскурсию
+                                    корреспондентам с телеканала ТВ центр. Учись у лучших!
+                                </p>
+                                <a href="http://www.tvc.ru/channel/brand/id/20/show/episodes/episode_id/43282/"
+                                   target="_blank">Прочитать полностью</a>
+                            </div>
+                        </div>
+
+
+                        <div class="fn-student__slide-wrapp col-md-4">
+                            <div class="fn-student__slide-middle--item">
+                                <div class="fn-student-slide-middle__img">
+                                    <h3>Москва</h3>
+                                    <div class="img-wrapp">
+                                        <img src="img/moscov.png" class="img-responsive">
+                                    </div>
+                                </div>
+                                <p>
+                                    6 июня 2015 г. доллару исполнилось 230 лет.
+                                    В программе «ВЕЧЕР», на канале «Москва 24»,
+                                    руководитель отделения INTENSIVE ИТИ
+                                    «Феникс», Алена Ботникова, дала интервью
+                                    о том, как ей удалось заработать на падении
+                                    рубля в 2014 г. на финансовых рынках.
+                                </p>
+                                <a href="http://www.m24.ru/videos/84606" target="_blank">Прочитать полностью</a>
+                            </div>
+                        </div>
+
+
+                        <div class="fn-student__slide-wrapp col-md-4">
+                            <div class="fn-student__slide-middle--item">
+                                <div class="fn-student-slide-middle__img">
+                                    <h3>Звезда</h3>
+                                    <div class="img-wrapp">
+                                        <img src="img/star-1.jpg" class="img-responsive">
+                                    </div>
+                                </div>
+                                <p>
+                                    Выпуск от 5 апреля 2015 года.
+                                    Программа «Научный детектив» на телеканале
+                                    «Звезда». Куда катится доллар?
+                                    В гостях программы руководитель отделения
+                                    INTENSIVE ИТИ «Феникс» - Алена Ботникова
+                                    и ее яркое мнение на этот счет. Учись у лучших!
+                                </p>
+                                <a href="https://www.youtube.com/embed/3p3RHtiDn0k" target="_blank">Прочитать
+                                    полностью</a>
+                            </div>
+                        </div>
+
+                        <div class="fn-student__slide-wrapp col-md-4">
+                            <div class="fn-student__slide-middle--item">
+                                <div class="fn-student-slide-middle__img">
+                                    <h3>Деньги</h3>
+                                    <div class="img-wrapp">
+                                        <img src="img/chuzhie-dengi-1.jpg" class="img-responsive">
+                                    </div>
+                                </div>
+                                <p>
+                                    Номер издания 3(135), год: 2015
+                                    Алена Ботникова, руководитель отделения
+                                    INTENSIVE ИТИ «Феникс», делится с читателями
+                                    о том, что работа обязана быть в радость,
+                                    только в таком случае финансовая независимость
+                                    и видимая польза от деятельности доставляют
+                                    истинное удовольствие.
+                                    Учись у лучших!
+                                </p>
+                                <a href="http://www.fxmoney.ru/node/3183" target="_blank">Прочитать полностью</a>
+                            </div>
+                        </div>
+
+                        <div class="fn-student__slide-wrapp col-md-4">
+                            <div class="fn-student__slide-middle--item">
+                                <div class="fn-student-slide-middle__img">
+                                    <h3>Деловой квартал</h3>
+                                    <div class="img-wrapp">
+                                        <img src="img/log1.png" class="img-responsive">
+                                    </div>
+                                </div>
+                                <p>
+                                    22 марта 2017 года
+                                    Председатель комитета по финансовым рынкам
+                                    и кредитным организациям Торгово-промышленной
+                                    палаты РФ Яков Миркин и руководитель отделения
+                                    INTENSIVE ИТИ «Феникс» Алена Ботникова о
+                                    прогнозах курса рубля на 2017 год.
+                                    Учись у лучших!
+                                </p>
+                                <a href="https://www.ridus.ru/search?utf8=%E2%9C%93&query=%D0%91%D0%BE%D1%82%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2%D0%B0"
+                                   target="_blank">Прочитать полностью</a>
+                            </div>
+                        </div>
+
+                        <div class="fn-student__slide-wrapp col-md-4">
+                            <div class="fn-student__slide-middle--item">
+                                <div class="fn-student-slide-middle__img">
+                                    <h3>Белта</h3>
+                                    <div class="img-wrapp">
+                                        <img src="img/belta-1.jpg" class="img-responsive">
+                                    </div>
+                                </div>
+                                <p>
+                                    Марк Гойхман, выпускник ИТИ «ФЕНИКС»,
+                                    а также трейдер-аналитик ГК Teletrade,
+                                    13 июля 2016 г. в г.Минске участвовал в брифинге
+                                    для СМИ Белоруссии по вопросам перспектив
+                                    влияния финансовых рынков на экономику
+                                    Белоруссии и российско-белорусского
+                                    сотрудничества. По оценкам агентств, 13 июля
+                                    Марк Гойхман был наиболее цитируемым СМИ
+                                    экспертом.Учись у лучших!
+                                </p>
+                                <a href="http://www.belta.by/economics/view/gojhman-opyt-rossii-podtverdil-chto-denominatsija-pozitivnoe-javlenie-201614-2016/"
+                                   target="_blank">Прочитать полностью</a>
+                            </div>
+                        </div>
+
+                        <!-- 						<div class="fn-student__slide-wrapp col-md-4">
+                                                    <div class="fn-student__slide-middle--item">
+                                                        <div class="fn-student-slide-middle__img">
+                                                            <h3>Аргументы та факты</h3>
+                                                            <div class="img-wrapp">
+                                                                <img src="img/Logo_aif2.png" class="img-responsive" >
+                                                            </div>
+                                                        </div>
+                                                        <p>
+                                                            Ростовское издание «Деловой квартал»
+                                                            опубликовало ответы Марка Гойхмана,
+                                                            выпускника ИТИ «ФЕНИКС», а также
+                                                            трейдера-аналитика ГК Teletrade,
+                                                            на вопросы газеты об экономике и уровне
+                                                            жизни в области 31.12.2015.
+                                                            Учись у лучших!
+                                                        </p>
+                                                        <a href="http://rostov.dk.ru/news/itogi-goda-koshelki-rostovchan-pohudeli-no-nadezhda-umiraet-posledney-236998223" target="_blank">Прочитать полностью</a>
+                                                    </div>
+                                                </div>
+                         -->
+
+                    </div>
+
+                    <!-- 					<div class="col-md-5 col-sm-5">
+                                            <div class="fn-students__item   slider-left">
+
+                                                <div class="item">
+                                                    <img src="img/belta-1.jpg">
+                                                </div >
+
+                                                <div class="item">
+                                                    <img src="img/Logo_aif2.png">
+                                                </div >
+                                                <div class="item">
+                                                    <img src="img/centr-1.jpg">
+                                                </div >
+                                                <div class="item">
+                                                    <img src="img/moscov.png">
+                                                </div >
+                                                <div class="item">
+                                                    <img src="img/star-1.jpg">
+                                                </div >
+                                                <div class="item">
+                                                    <img src="img/chuzhie-dengi-1.jpg">
+                                                </div >
+                                                <div class="item">
+                                                    <img src="img/log1.png">
+                                                </div >
+
+                                            </div>
+                                        </div>
+                                            <div class="col-md-7 col-sm-7">
+                                                <div class=" fn-students__item-left slider-right">
+
+                                                    <div class="item">
+                                                        <img src="img/Logo_aif2.png">
+                                                    </div >
+                                                    <div class="item">
+                                                        <img src="img/centr-1.jpg">
+                                                    </div >
+                                                    <div class="item">
+                                                        <img src="img/moscov.png">
+                                                    </div >
+                                                    <div class="item">
+                                                        <img src="img/star-1.jpg">
+                                                    </div >
+                                                    <div class="item">
+                                                        <img src="img/chuzhie-dengi-1.jpg">
+                                                    </div >
+                                                    <div class="item">
+                                                        <img src="img/log1.png">
+                                                    </div >
+                                                    <div class="item">
+                                                        <img src="img/belta-1.jpg">
+                                                    </div >
+
+
+                                                </div>
+                                            </div>
+
+                                        </div> -->
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="fn-students">
+        <div class="container">
+            <div class="row">
+
+                <div class="fn-title-section">
+                    <h3>Мы обучаем студентов
+                        и активно сотрудничаем с учебными заведениями</h3>
+                </div>
+                <ul class="fn-students__list">
+                    <li>
+                        <img src="img/student1.png" class="img-responsive">
+                        <p>МГУ</p>
+                    </li>
+                    <li>
+                        <img src="img/n.png" class="img-responsive">
+                        <p>НИЦ «Неокономика»</p>
+                    </li>
+                    <li>
+                        <img src="img/cir.png" class="img-responsive">
+                        <p>Финансовый <br>
+                            университет</p>
+                    </li>
+
+                    <li>
+                        <img src="img/ckj.png" class="img-responsive">
+                        <p>Всероссийская Академия <br>
+                            Внешней Торговли</p>
+                    </li>
+                    <li>
+                        <img src="img/ich.png" class="img-responsive">
+                        <p>Институт социальных наук</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="fn-contact" style="background: url('img/bg-foter.jpg') 50% center/cover no-repeat;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-md-offset-3">
+                    <div class="fn-title-section ">
+                        <h3>ВЫ ДУМАЕТЕ: "ПОЧЕМУ БЕСПЛАТНО?"</h3>
+                        <p>Мы любим ставить эксперименты и решили сравнить результаты
+                            учеников платной и бесплатной группы.</p>
+                    </div>
+                    <form class="fn-contact__form fn-contact__form--two">
+
+                        <div class="col-md-8 padd-none">
+                            <div class="form-input">
+                                <input type="text" placeholder="Ваше имя" class="input-br input" required>
+                            </div>
+                            <div class="form-input">
+                                <input type="text" id="phone-four" class="input-br input" placeholder="Ваше телефон"
+                                       required>
+                            </div>
+                            <div class="form-input">
+                                <button class="fn-btn btn-form-four" href="#popup1">Записаться</button>
+                            </div>
+                        </div>
+                        <div class="col-md-4 padd-none">
+                            <div class="fn-number">
+                                <span class="mest__timer-three">8</span>
+                                <p>мест осталось</p>
+                            </div>
+                        </div>
+                    </form>
+
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+
+    <footer class="fn-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <ul class="fn-footer__nav padd-none">
+                        <li><a href="">ООО «Институт трейдинга и инвестиций «ФЕНИКС»</a></li>
+                        <li><a href="">109028, Москва, Хохловский переулок, д. 16, стр. 1, офис 16.</a></li>
+                        <li><a href="">Лицензия: Серия 77 Л01 №0008532, <br>
+                            регистационный № 037708 от 21 июля 2016 года</a></li>
+                        <li><a href="">Политика конфиденциальности</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <ul class="fn-footer__nav border">
+                        <li><a href="">ИНН 7709489391</a></li>
+                        <li><a href="">КПП 770901001</a></li>
+                        <li><a href="">ОКПО 01758822</a></li>
+                        <li><a href="">ОГРН 1167746343907</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <p class="fn-phone"><a href="">+7 (925) 864 11 13</a></p>
+                    <ul class="fn-footer__social">
+                        <li><a href=""><img src="img/vk.png"></a></li>
+                        <li><a href=""><img src="img/google-plus.png"></</a></li>
+                        <li><a href=""><img src="img/youtube.png"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <section class="fn-contact">
+        <div class="container">
+            <div class="row">
+                <div class="fn-title-section fn-text-white">
+                    <h3>ВЫ ДУМАЕТЕ: "ПОЧЕМУ БЕСПЛАТНО?"</h3>
+                    <p>Мы любим ставить эксперименты и решили сравнить результаты
+                        учеников платной и бесплатной группы.</p>
+                </div>
+                <form class="fn-contact__form">
+                    <div class="col-md-4 padd-none">
+                        <div class="fn-number">
+                            <span class="mest__timer-three">8</span>
+                            <p>мест осталось</p>
+                        </div>
+                    </div>
+                    <div class="col-md-8 padd-none">
+                        <div class="form-input">
+                            <input type="text" placeholder="Ваше имя" class="input-bg input" required>
+                        </div>
+                        <div class="form-input">
+                            <input type="text" id="phone-four" class="input-bg input" placeholder="Ваше телефон"
+                                   required>
+                        </div>
+                        <div class="form-input">
+                            <button class="fn-btn btn-form-four" href="#popup1">Записаться</button>
+                        </div>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+
+    </section>
+
+
+    <footer class="fn-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <ul class="fn-footer__nav padd-none">
+                        <li><a href="">ООО «Институт трейдинга и инвестиций «ФЕНИКС»</a></li>
+                        <li><a href="">109028, Москва, Хохловский переулок, д. 16, стр. 1, офис 16.</a></li>
+                        <li><a href="">Лицензия: Серия 77 Л01 №0008532, <br>
+                            регистационный № 037708 от 21 июля 2016 года</a></li>
+                        <li><a href="">Политика конфиденциальности</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <ul class="fn-footer__nav border">
+                        <li><a href="">ИНН 7709489391</a></li>
+                        <li><a href="">КПП 770901001</a></li>
+                        <li><a href="">ОКПО 01758822</a></li>
+                        <li><a href="">ОГРН 1167746343907</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <p class="fn-phone"><a href="">+7 (925) 864 11 13</a></p>
+                    <ul class="fn-footer__social">
+                        <li><a href=""><img src="img/vk.png"></a></li>
+                        <li><a href=""><img src="img/google-plus.png"></a></li>
+                        <li><a href=""><img src="img/youtube.png"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <section class="fn-after-course">
+        <div class="container">
+
+            <div class="fn-title-section ">
+                <h3>После прохождения курса Вы сможете</h3>
+            </div>
+            <img class="fn-after-course__img-fon" src="img/bitcoin.png">
+            <div class="row">
+                <img src="img/course-right.png" class="line-right">
+                <img src="img/course-left.png" class="line-left">
+                <div class="col-md-6 ">
+                    <div class="fn-after-course__wrapper">
+                        <div class="col-md-8">
+                            <div class="fn-after-course__item">
+                                <h4>Надежность</h4>
+                                <p>За 1 месяц составила рекордная прибыль нашего ученика после обучения</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="fn-after-course__item stability">
+                            <h4>Стабильность</h4>
+                            <p>За 1 месяц составила рекордная прибыль нашего ученика после обучения</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 ">
+                    <div class="fn-after-course__wrapper">
+                        <div class="col-md-8 col-md-8 fn-after-course__right">
+                            <div class="fn-after-course__item  reliability">
+                                <h4>Надежность</h4>
+                                <p>За 1 месяц составила рекордная прибыль нашего ученика после обучения</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-8 fn-after-course__right">
+                        <div class="fn-after-course__item stability-new">
+                            <h4>Надежность</h4>
+                            <p>За 1 месяц составила рекордная прибыль нашего ученика после обучения</p>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <section class="fn-funist">
+        <div class="container">
+
+            <div class="fn-title-section fn-text-white">
+                <h3>ФинИст - это уникальное место
+                    где концентрируется финансовая элита Москвы. </h3>
+                <p>У нас вы найдете будущих друзей, бизнес партнеров и экспертов
+                    с кем можно обсудить вопросы инвестирования
+                    и заработка на различных активах.</p>
+            </div>
+            <div class="row">
+                <div class="col-md-6 pr">
+                    <div class="fn-funist__foto ">
+                        <img src="img/pEQLvG4z82A.png">
+                    </div>
+                </div>
+                <div class="col-md-6 pl">
+                    <div class="fn-funist__foto">
+                        <img src="img/WgRwnSkfZtQ.png">
+                    </div>
+                    <div class="fn-funist__foto">
+                        <img src="img/xhvsnjNc5qI.png">
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="fn-funist__text">
+                        <h4>За все время работы обучение прошло более 5 000 человек</h4>
+                        <div class="form-input">
+                            <button class="fn-btn btn-form-four">Записаться</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+    <section class="fn-funist-second">
+        <div class="container">
+
+            <div class="fn-title-section fn-text-white fn-text-left">
+                <h3>ФинИст - это уникальное место<br>
+                    где концентрируется финансовая элита Москвы. </h3>
+                <p>У нас вы найдете будущих друзей, бизнес партнеров<br> и экспертов
+                    с кем можно обсудить вопросы инвестирования <br>
+                    и заработка на различных активах.</p>
+            </div>
+            <div class="row">
+                <div class="col-md-8 pr">
+                    <div class="col-md-6 pr">
+                        <div class="fn-funist__text ">
+                            <h4 class="fn-text-left">За все время работы обучение прошло более 5 000 человек</h4>
+                            <div class="form-input">
+                                <button class="fn-btn btn-form-four">Записаться</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 pr">
+                        <div class="fn-funist__foto foto2">
+                            <img src="img/pEQLvG4z82Aw.png">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 pl">
+                    <div class="fn-funist__foto foto1">
+                        <img src="img/WgRwnSkfZtQc.png">
+                    </div>
+                    <div class="fn-funist__foto foto2">
+                        <img src="img/xhvsnjNc5qIh.png">
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+
+        <img class="elementf" src="img/elementf.png">
+
+    </section>
 
 </div>
-	<script src="js/jquery-2.1.3.min.js"></script>
-	<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
-	<script src="libs/slick/slick.js"></script>
-	<script src="js/jquery.maskedinput.min.js"></script>
-	<script src="js/common.js"></script>
+<script src="js/jquery-2.1.3.min.js"></script>
+<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
+<script src="libs/slick/slick.js"></script>
+<script src="js/jquery.maskedinput.min.js"></script>
+<script src="js/common.js"></script>
 
 </body>
 </html>

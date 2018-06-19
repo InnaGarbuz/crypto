@@ -64,7 +64,6 @@ $(document).ready(function () {
         modal.fadeIn();
     });
 
-
 });
 
 //counter
@@ -104,6 +103,7 @@ $(function () {
         counter--;
         $('.mest__timer-two, .mest__timer-three, .mest__timer-four').html(counter);
         $('#usernamePopup').text(nameArr[counter] + " записался  на бесплатное обучение");
+
         $('.timer').html(counter);
     }
 
@@ -135,7 +135,6 @@ $(document).ready(function () { // вся мaгия пoсле зaгрузки с
     });
 });
 
-
 function sendStatisticAndMail() {
     let clickId = location.search.split('clickid=')[1];
     console.log(clickId);
@@ -157,3 +156,4 @@ function sendStatisticAndMail() {
         // alert(xhr.responseText); // responseText -- текст ответа.
     }
 }
+
