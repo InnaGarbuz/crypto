@@ -1,0 +1,837 @@
+@import "bourbon/bourbon"
+
+.padd-none
+	padding: 0
+
+.fn-wrapper
+	overflow: hidden
+
+section
+	padding: 20px 0 80px
+
+
+.line-green
+	width: 282px
+	margin: 26px auto 26px
+	border-top: 2px solid #01ddb5
+
+
+
+.slider
+	z-index: 1
+	padding: 0
+
+.fn-title-section
+	text-align: center
+	padding: 20px 0
+	width: 70%
+	margin: 0 auto
+	h3
+		text-transform: uppercase
+		font-size: 32px
+		color: #0058ed
+	p
+		font-size: 24px
+		color: #222
+
+.fn-header
+	width: 100%
+	position: absolute
+	padding: 20px 0
+	z-index: 2
+
+
+.fn-banner
+	width: 100%
+	background: url('../img/611.jpg')50% center / cover no-repeat
+	//background-image: linear-gradient(to right top, #00b9fa, #00a8fc, #0096fc, #0082f8, #006cf0)
+	text-align: center
+	color: #FFF
+	position: relative
+	h1
+		padding: 100px 0 0
+		font-size: 36px
+		margin-bottom: 0
+	h2
+		font-size: 26px
+		margin-bottom: 53px
+
+.fn-banner-two
+	width: 100%
+	background: url('../img/611.jpg')50% center / cover no-repeat
+	position: relative
+	padding: 0px 0 0
+	h1
+		font-size: 36px
+		margin-bottom: 0
+		color: #fff
+		padding: 100px 0 0 0
+	h2
+		margin-top: 0
+		font-size: 30px
+		color: #fff
+	p
+		font-size: 24px
+		color: #fff
+		margin: 10px  0
+
+	.fn-header__navbar li a:hover
+		color: #01d3be
+		border-bottom: 2px solid #01d3be
+
+
+
+.fn-header__navbar
+	padding: 0
+	text-align: center
+	margin: 5px 0
+	li
+		display: inline-block
+		padding: 10px
+		a
+			color: #fff
+			font-size: 18px
+			padding: 10px 0
+			&:hover
+				color: #00bd9b
+				border-bottom: 2px solid #00bd9b
+
+
+
+
+//slider
+
+.fn-programm__slider
+	position: relative
+	.arrow
+		background: #FFF
+		border: 2px solid #01ddb5
+		border-radius: 50%
+		position: absolute
+		bottom: -98px
+		font-size: 50px
+		padding: 5px 23px
+		color: #01ddb5
+		z-index: 2
+		&:hover
+			background: #01ddb5
+			color: #183e58
+	.fa-angle-left
+		left: 45%
+	.fa-angle-right
+		left: 51%
+
+.fn-programm__image
+	border: 8px solid #00bd9b
+	border-radius: 5px
+	img
+		max-width: 100%
+
+
+
+//fn-top-header
+.fn-top-header-wrapp
+	position: relative
+	height: 300px
+	margin: 43px 0 0
+	padding: 27px 0
+.fn-top-header
+	background: rgba(255, 255, 255, 0.1411764705882353)
+	padding: 40px 0
+	position: absolute
+	border-radius: 155px
+	width: 100%
+	right: -103px
+
+.fn-top-header__item
+	.text
+		font-size:  18px
+		color: #fff
+		text-align: center
+		width: 70%
+		margin: 20px auto 10px
+	.text-min
+		width: 100%
+		font-size:  18px
+		color: #fff
+		text-align: center
+		margin: 20px auto 10px
+
+.fn-top-header__item-img
+	background: #FFF
+	border-radius: 50%
+	padding: 14px 10px
+	text-align: center
+	width: 80px
+	height: 80px
+	margin: 0 auto
+
+.img-voln
+	position: absolute
+	bottom: -24px
+	width: 100%
+.border
+	border-right: 1px solid #4d98f5
+	border-left: 1px solid #4d98f5
+.banner-text
+	width: 70%
+.fn-top-header-img
+	width: 100%
+	height: 158px
+//license
+
+.fn-license
+	width: 100%
+	background: url('../img/bg-li.png')50% center / cover no-repeat
+	&__wrapper
+		display: flex
+		flex-direction: row
+		flex-wrap: wrap
+		width: 95%
+		justify-content: center
+		p
+			color: #222
+			font-size: 24px
+			text-align: center
+
+	&__img
+		border: 8px solid #00bd9b
+		border-radius: 5px
+		display: flex
+		margin: 0 14px
+		width: 32%
+		align-items: center
+		justify-content: center
+		img
+			max-width: 100%
+
+.fn-phone
+	a
+		color: #fff
+		font-size: 18px
+
+//student
+
+.fn-students__list
+	list-style: none
+	display: flex
+	li
+		display: inline-block
+		padding: 0px 13px
+		width: 23%
+		text-align: center
+		img
+			margin: 0 auto
+		p
+			font-size: 16px
+			color: #183e54
+			font-weight: bold
+			margin: 15px 0
+
+.fn-students
+	padding: 20px 0 80px
+
+
+//contact-form-footer
+
+
+.fn-contact
+	width: 100%
+	background: url('../img/bg-form.jpg')50% center / cover no-repeat
+
+.fn-number
+	background: #01ddb5
+	padding: 10px 20px
+	font-size: 91px
+	font-weight: bold
+	color: #fff
+	width: 158px
+	margin: 0 auto
+	text-align: center
+	border-radius: 4px
+	line-height: 0.9
+	p
+		margin: 0
+		font-size: 24px
+		line-height: 1
+		color: #fff
+
+.fn-contact__form
+	margin: 0 auto
+	width: 46%
+	margin: 0 auto
+	float: right
+
+.fn-contact__form--two
+	width: 64%
+.fn-btn
+	border-radius: 50px
+	width: 377px
+	display: block
+	height: 68px
+	text-align: center
+	padding: 14px 21px
+	font-size: 20px
+	cursor: pointer
+	color: #fff
+	background: #01ddb5
+	border: 1px solid #01ddb5
+	&:hover
+		background: #1b3a4f
+		border: 1px solid #FFF
+
+.fn-btn-blue
+	border-radius: 50px
+	width: 100%
+	height: 68px
+	display: block
+	text-align: center
+	padding: 14px 21px
+	font-size: 20px
+	cursor: pointer
+	color: #fff
+	border: 1px solid #1b3a4f
+	background: #1b3a4f
+	&:hover
+		background: #01ddb5
+		border: 1px solid #FFF
+.form-input
+	margin: 0 0 14px
+	.input
+		border-radius: 50px
+		border: 1px solid #fff
+		width: 377px
+		height: 68px
+		padding: 14px 21px
+		font-size: 16px
+		color: #fff
+		background: transparent
+		&::placeholder
+			color: #fff
+
+	.input-bg
+		background: #007ef6
+	.input-br
+		border: 1px solid  #c1c1c1
+		&::placeholder
+			color: #222
+
+.fn-footer
+	background: #006cf0
+	padding: 20px 0
+.fn-footer__nav
+	list-style: none
+	li
+		padding: 5px 0
+		a
+			color: #fff
+			font-size: 16px
+
+
+
+//fn-results
+
+.fn-results_item
+	border-radius: 10px
+	background-color: rgb(250, 250, 250)
+	box-shadow: 0px 0px 9px 0px rgba(28, 28, 29, 0.25)
+	padding: 20px
+	height: 320px
+	margin: 20px 0
+	position: relative
+	overflow: hidden
+
+
+
+
+
+//idecator
+.fn-results__progress
+	display: block
+	height: 180px
+	width: 180px
+	margin: 1em auto
+	border-radius: 100%
+	position: relative
+	text-align: center
+
+.svg circle
+	transition: stroke-dashoffset 200ms linear
+	stroke: #00a487
+	stroke-width: 21px
+
+.svg .bar
+	stroke: #01ddb5
+	stroke-dasharray: 462.487
+	stroke-dashoffset: 37.8319
+
+.svg .bar2
+	stroke: #01ddb5
+	stroke-dasharray: 289.487
+	stroke-dashoffset: -134.1681
+.percentage
+	display: flex
+	justify-content: center
+	align-items: center
+	font-size: 3rem
+	color: #1b3a4f
+	position: absolute
+	width: inherit
+	height: inherit
+	bottom: -25px
+	font-size: 24px
+	left: 0
+	font-weight: bold
+
+.pctTxt
+	display: flex
+	justify-content: center
+	align-items: center
+	font-size: 44px
+	font-weight: bold
+	color: #0058ed
+	position: absolute
+	width: inherit
+	height: inherit
+	top: -6px
+	font-size: 44px
+	left: 0
+
+.fn-results_item-text
+	font-size: 18px
+	color: #000
+	text-align: center
+	font-weight: bold
+
+
+.price
+	font-size:  60px
+	color: #0058ed
+	margin-bottom: 0
+	text-align: center
+	font-weight: bold
+	margin: 73px 0 11px
+
+
+
+//fn-doubt
+.fn-doubt
+	width: 100%
+	background-image: linear-gradient(to right top, #00b9fa, #00a8fc, #0096fc, #0082f8, #006cf0)
+.fn-contact__form-big
+	width: 100%
+	position: relative
+	.form-input
+		width: 100%
+		input
+			width: 100%
+
+
+.form-title
+	font-size: 24px
+	margin-bottom: 20px
+	color: #FFF
+
+.form-control
+	width: 100%
+
+
+
+
+
+.fn-blue
+	background: #1b3a4f
+	color: #fff
+	p
+		color: #fff
+
+
+.overflow
+	border: 1px solid #01ddb5
+	width: 460px
+	height: 350px
+	position: absolute
+	right: -44px
+	top: -20px
+	border-radius: 4px
+
+
+.title-form-banner
+	font-size: 24px
+	color: #fff
+	text-align: right
+
+
+.fn-bigtext
+	font-size: 60px
+	font-weight: bold
+	color: #183e58
+.fn-day
+	font-weight: bold
+	color: #183e58
+	margin: 0
+	font-size: 32px
+
+.fn-time
+	font-size: 24px
+	color: #000
+	font-weight: 400
+
+.fn-programm__text
+	h4
+		margin: 0
+		color: #00bd9b
+		font-size: 24px
+	.desrk
+		font-size: 20px
+
+.fn-students__wrapper
+	width: 76%
+	margin: 0 auto
+	position: relative
+.fn-students__slider
+	padding: 0
+	margin: 80px 0 0
+	list-style: none
+	.fn-students__item
+		background: #01ddb5
+		padding: 60px 10px
+		overflow: hidden
+		margin-right: 18px
+		height: 208px
+		display: inline-block
+
+
+.fn-student__slide-middle
+	margin: 0 auto
+	width: 100%
+	height: 100%
+.fn-student__slide-wrapp
+	width: 500px
+	margin: 0 auto
+	height: 480px!important
+	position: relative
+.fn-student__slide-middle--item
+	background: #fdfbfb
+	margin: 0 10px
+	padding-bottom: 40px
+	border-radius: 10px
+	overflow: hidden
+	height: 490px
+	box-shadow: 0px 4px 13px 0px rgba(28, 28, 29, 0.16)
+	p
+		padding: 20px 40px
+		font-size: 20px
+	a
+		color: #1c4fe7
+		font-weight: bold
+		font-size: 18px
+		margin: 0 40px 0
+		padding: 10px 0 5px
+		border-bottom: 2px solid #1c4fe7
+
+
+
+.container-fluid
+	padding: 0
+	padding-right: 25px
+
+.fn-footer__social
+	padding: 0
+	margin: 0
+	li
+		display: inline-block
+		padding: 8px 0
+		background: #fff
+		border-radius: 70px
+		width: 50px
+		height: 50px
+		font-size: 23px
+		margin: 0 4px
+		text-align: center
+
+
+
+
+.fn-students__item-left
+	padding-left: 80px
+	margin: 80px 0 0
+	list-style: none
+	display: flex
+	flex-direction: row
+  flex-wrap: wrap
+	/* align-items: center; */
+	.item
+		background: #01ddb5
+		padding: 60px 10px
+		margin: 0 9px
+		height: 190px
+	li:last-child
+		margin-right: 0
+		img
+			width: 100%
+
+
+.fn-form-popup
+	position: fixed
+	right: 20px
+	bottom: 20px
+	background: #fff
+	border: 3px solid #00bd9b
+	border-radius: 5px
+	z-index: 9
+	display: flex
+	padding: 20px 20px 10px
+	width: 368px
+	height: 116px
+	p
+		font-weight: bold
+		color: #000
+		text-align: left
+	.fn-number
+		font-size: 41px
+		p
+			font-size: 11px
+			color: #FFF
+
+
+.fn-form-popup-two
+	position: absolute
+	top: 0%
+	background: #fafafa
+	border: 3px solid #00bd9b
+	border-radius: 5px
+	z-index: 9
+	padding: 20px 20px 10px
+	width: 100%
+	text-align: center
+	h2
+		font-size: 36px
+		color: #1b3a4f
+		margin: 0
+	p
+		color: #000
+		font-size: 19px
+		margin: 8px 0
+	p.text-blue
+		color: #0058ed
+
+
+.fn-popup-sosial
+	padding: 0
+	list-style: none
+	li
+		display: inline-block
+		width: 22%
+		margin: 0 4px
+		.sosial
+			color: #fff
+			background: #0058ed
+			border-radius: 70px
+			width: 50px
+			padding: 8px 0
+			margin: 0 auto
+			height: 50px
+			display: block
+			font-size: 23px
+		.sosial-img
+			width: 80%
+			display: block
+			background: rgba(255, 255, 255, 0)
+			margin: 0 auto 18px
+			img
+				width: 86%
+				margin: 0 auto
+
+		p
+			color: #1b3a4f
+			font-size: 17px
+
+
+.close
+	position: absolute
+	top: 20px
+	right: 30px
+	cursor: pointer
+	transition: all 0.2s
+	font-size: 30px
+	font-weight: bold
+	text-decoration: none
+	color: #333
+
+
+.fn-students__item
+	padding: 0
+	margin: 80px 0 0
+	list-style: none
+	.item
+		background: #01ddb5
+		padding: 10px 30px
+		margin: 0 9px
+		height: 190px
+		display: flex
+		flex-direction: row
+		flex-wrap: wrap;
+		align-items: center
+	li:last-child
+		margin-right: 0
+		img
+			width: 100%
+
+
+
+
+.overlay
+	position: fixed
+	top: 0
+	bottom: 0
+	left: 0
+	right: 0
+	z-index: 999
+	background: rgba(0, 0, 0, 0.7)
+
+
+.popup
+	margin: 70px auto
+	padding: 20px
+	background: url('../img/bg-popup.jpg')
+	background-size: cover
+	border-radius: 5px
+	width: 80%
+	position: relative
+	transition: all 5s ease-in-out
+	h2
+		margin-top: 0
+		color: #0058ed
+		font-family: Tahoma, Arial, sans-serif
+	.close
+		position: absolute
+		top: 20px
+		right: 30px
+		transition: all 200ms
+		font-size: 30px
+		font-weight: bold
+		text-decoration: none
+		color: #333
+		&:hover
+			color: #06D85F
+	.content
+		max-height: 30%
+		overflow: auto
+
+
+.fn-text-white
+	h3
+		color: #fff
+	p
+		color: #fff
+
+
+
+.fn-student-slide-middle__img
+	width: 100%
+	background: #ededed
+	display: flex
+	position: relative
+	overflow: hidden
+	padding: 20px
+	height: 98px
+	align-items: center
+	h3
+		font-size: 23px
+		margin: 0
+
+.img-wrapp
+	border-radius: 61%
+	background: #0058ed
+	padding: 47px 47px 47px 24px
+	position: absolute
+	right: -28px
+	top: -20px
+	img
+		width: 133px
+
+@media screen and (max-width: 700px)
+	.box, .popup
+	width: 70%
+
+
+
+
+
+
+
+.line-left
+	left: 0
+	position: absolute
+	top: 61%
+
+.line-right
+	right: 0
+	position: absolute
+	top: 61%
+
+
+.fn-after-course
+	position: relative
+	overflow: hidden
+	&__img-fon
+		position: absolute
+		left: 50%
+		top: 30%
+		-webkit-transform: translateX(-50%)
+		-moz-transform: translateX(-50%)
+		-ms-transform: translateX(-50%)
+		-ms-transform: translateX(-50%)
+		-o-transform: translateX(-50%)
+		transform: translateX(-50%)
+		width: 449px
+	&__wrapper
+		width: 100%
+	&__item
+		text-align: left
+		h4
+			color: #177efb
+			font-weight: bold
+			font-size: 23px
+			margin-bottom: 0
+
+		p
+			font-weight: bold
+			font-size: 20px
+			margin: 10px 0
+
+	.line-right
+		top: 0
+		right: -306px
+
+	.line-left
+		top: -178px
+		left: -179px
+
+	.margin-course
+		margin-top: 50px
+
+
+.fn-after-course__right
+	float: right
+
+
+.stability
+	margin: 170px 0
+
+.reliability
+	position: absolute
+	top: -32px
+	left: -18px
+
+.stability-new
+	position: absolute
+	top: 271px
+	margin: 0 20px
+
+.fn-line
+	position: absolute
+	top: 40%
+	width: 100%
+	left: 0
