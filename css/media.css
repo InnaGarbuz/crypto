@@ -138,9 +138,6 @@
 
 
 /* Large Devices, Wide Screens */
-@media only screen and (max-width : 1200px) {
-
-}
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
@@ -478,7 +475,22 @@
 }
 
 /* Medium Devices, Desktops */
-@media only screen and (min-width :  1200px) {
+@media only screen and (min-width :  992px) {
+	.fn-funist-second  .fn-funist__foto{
+		position: relative;
+		height: 200px;
+	}
 
+	.foto1{
+		position: absolute;
+		right: -42px;
+		top: -111px;
+	}
+
+	.foto2{
+		position: absolute;
+		right: -43px;
+		    bottom: -11px;
+	}
 }
 
