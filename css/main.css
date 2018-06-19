@@ -633,8 +633,10 @@ section {
   padding: 0;
   list-style: none; }
   .fn-popup-sosial li {
+        height: 149px;
     display: inline-block;
     width: 32%;
+    position: relative;
     margin: 0 4px; }
     .fn-popup-sosial li .sosial {
       color: #fff;
@@ -652,12 +654,19 @@ section {
       background: rgba(255, 255, 255, 0);
       margin: 0 auto 18px; }
       .fn-popup-sosial li .sosial-img img {
-        width: 86%;
-        margin: 0 auto; }
+            width: 70%;
+    margin: 0 auto;
+    position: absolute;
+    top: 15px;
+    left: 30px;}
     .fn-popup-sosial li p {
       color: #1b3a4f;
       font-size: 17px; }
-
+.fn-popup-sosial li p:first-child{
+	    margin: 13px 0;
+    position: absolute;
+    bottom: -43px;
+}
 .close {
   position: absolute;
   top: 20px;
