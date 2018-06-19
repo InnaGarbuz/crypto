@@ -662,7 +662,7 @@ section {
     .fn-popup-sosial li p {
       color: #1b3a4f;
       font-size: 17px; }
-.fn-popup-sosial li p:first-child{
+.fn-popup-sosial li p.p-img{
 	    margin: 13px 0;
     position: absolute;
     bottom: -43px;
