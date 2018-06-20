@@ -716,7 +716,7 @@ section {
   background: rgba(0, 0, 0, 0.7); }
 
 .popup {
-  margin: 70px auto;
+  margin:  auto;
   padding: 20px;
   background: url("../img/bg-popup.jpg");
   background-size: cover;
